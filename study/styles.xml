@@ -20,7 +20,7 @@
  </office:font-decls>
  <office:styles>
   <style:default-style style:family="graphics">
-   <style:properties draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" fo:color="#000000" style:font-name="futura" fo:font-size="12pt" fo:language="de" fo:country="DE" style:font-name-asian="HG Mincho Light J" style:font-size-asian="12pt" style:language-asian="none" style:country-asian="none" style:font-name-complex="Arial Unicode MS" style:font-size-complex="12pt" style:language-complex="none" style:country-complex="none" style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict">
+   <style:properties draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" fo:color="#000000" style:font-name="futura" fo:font-size="12pt" fo:language="de" fo:country="DE" style:font-name-asian="HG Mincho Light J" style:font-size-asian="12pt" style:language-asian="none" style:country-asian="none" style:font-name-complex="Arial Unicode MS" style:font-size-complex="12pt" style:language-complex="none" style:country-complex="none" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict">
     <style:tab-stops/>
    </style:properties>
   </style:default-style>
@@ -237,12 +237,12 @@
   <style:style style:name="WW-Textkörper 2" style:family="paragraph" style:parent-style-name="Standard">
    <style:properties fo:color="#000000" style:font-name="Frutiger 45 Light" fo:text-align="center" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="Text3" style:family="paragraph" style:parent-style-name="Text body" style:class="text" style:master-page-name="">
+  <style:style style:name="Text3" style:family="paragraph" style:parent-style-name="Text body" style:master-page-name="">
    <style:properties fo:margin-left="0.131cm" fo:margin-right="0cm" style:font-name="helvetica" fo:font-weight="normal" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="0">
     <style:tab-stops/>
    </style:properties>
   </style:style>
-  <style:style style:name="Überschrift i" style:family="paragraph" style:parent-style-name="Heading 1" style:next-style-name="Standard" style:auto-update="true" style:class="text" style:master-page-name="">
+  <style:style style:name="Überschrift i" style:family="paragraph" style:parent-style-name="Heading 1" style:next-style-name="Standard" style:auto-update="true" style:master-page-name="">
    <style:properties fo:margin-top="0.838cm" fo:margin-bottom="0.508cm" fo:font-size="12pt" fo:line-height="100%" style:page-number="0" fo:break-before="auto" fo:break-after="auto"/>
   </style:style>
   <style:style style:name="Textkörper klein" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
@@ -925,10 +925,10 @@
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:properties>
    <style:header-style>
-    <style:properties fo:min-height="1.7cm"/>
+    <style:properties fo:min-height="1.7cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0cm"/>
    </style:header-style>
    <style:footer-style>
-    <style:properties fo:min-height="0cm" fo:margin-top="0.277cm"/>
+    <style:properties fo:min-height="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.277cm"/>
    </style:footer-style>
   </style:page-master>
   <style:page-master style:name="pm2">
@@ -976,10 +976,7 @@
     <style:properties fo:min-height="0.78cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.28cm"/>
    </style:footer-style>
   </style:page-master>
-  <number:number-style style:name="N5000" style:family="data-style" number:language="de" number:country="DE">
-   <number:number number:min-integer-digits="1"/>
-  </number:number-style>
-  <number:date-style style:name="N5037" style:family="data-style" number:language="de" number:country="DE" number:automatic-order="true">
+  <number:date-style style:name="N30" style:family="data-style" number:automatic-order="true">
    <number:day number:style="long"/>
    <number:text>.</number:text>
    <number:month number:style="long"/>
@@ -993,23 +990,23 @@
    <number:text>-</number:text>
    <number:day number:style="long"/>
   </number:date-style>
-  <number:date-style style:name="N5101" style:family="data-style" number:language="de" number:country="DE" number:title="Benutzerdefiniert">
+  <number:text-style style:name="N5100" style:family="data-style" number:language="de" number:country="DE">
+   <number:text-content/>
+  </number:text-style>
+  <number:date-style style:name="N5106" style:family="data-style" number:language="de" number:country="DE" number:title="Benutzerdefiniert">
    <number:year number:style="long"/>
   </number:date-style>
  </office:automatic-styles>
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-master-name="pm1">
    <style:header>
-    <text:variable-decls>
-     <text:variable-decl text:value-type="float" text:name="Release"/>
-    </text:variable-decls>
-    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik1" text:anchor-type="paragraph" svg:x="6.634cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="28" xlink:href="#Pictures/100000000000008E0000008800000000.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:variable-input text:name="Release" text:description="Releasenummer" text:value-type="float" text:value="0" style:data-style-name="N5000">0</text:variable-input></text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>97</text:editing-cycles></text:span><text:span text:style-name="T4"><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N5037">04.06.02</text:modification-date></text:span></text:p>
-    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">19</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
+    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik1" text:anchor-type="paragraph" svg:x="6.634cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="28" xlink:href="#Pictures/10000002000000910000008824F77D6A.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4">pre0-4</text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>102</text:editing-cycles></text:span><text:span text:style-name="T4"><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N30">06.06.02</text:modification-date></text:span></text:p>
+    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">13</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
     <text:p text:style-name="P3"/>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P4"><draw:image draw:style-name="fr1" draw:name="Grafik2" text:anchor-type="paragraph" svg:x="16.219cm" svg:y="0.028cm" svg:width="0.766cm" svg:height="0.863cm" draw:z-index="29" xlink:href="#Pictures/10000000000000300000003CD2F223EF.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>Copyright © <text:date style:data-style-name="N5101" text:date-value="2002-06-04">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
-    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/ScatchPad/Vorerkundung-0.4.sxw</text:file-name></text:p>
+    <text:p text:style-name="P4"><draw:image draw:style-name="fr1" draw:name="Grafik2" text:anchor-type="paragraph" svg:x="16.219cm" svg:y="0.028cm" svg:width="0.766cm" svg:height="0.863cm" draw:z-index="29" xlink:href="#Pictures/10000000000000300000003CD2F223EF.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>Copyright © <text:date style:data-style-name="N5106" text:date-value="2002-06-06">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
+    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/work/study.sxw</text:file-name></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="First Page" style:page-master-name="pm2" style:next-style-name="Standard">
@@ -1017,13 +1014,13 @@
     <text:variable-decls>
      <text:variable-decl text:value-type="float" text:name="Release"/>
     </text:variable-decls>
-    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik3" text:anchor-type="paragraph" svg:x="6.634cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="30" xlink:href="#Pictures/10000000000000910000008800000000.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:variable-input text:name="Release" text:description="Releasenummer" text:value-type="float" text:value="0" style:data-style-name="N5000">0</text:variable-input></text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>97</text:editing-cycles></text:span><text:span text:style-name="T4"><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N5037">04.06.02</text:modification-date></text:span></text:p>
-    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">19</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
+    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik3" text:anchor-type="paragraph" svg:x="6.634cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="30" xlink:href="#Pictures/10000002000000910000008824F77D6A.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:variable-input text:name="Release" text:description="Releasenummer" text:value-type="float" text:value="-4" style:data-style-name="N5100">pre0-4</text:variable-input></text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>102</text:editing-cycles></text:span><text:span text:style-name="T4"><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N30">06.06.02</text:modification-date></text:span></text:p>
+    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">13</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
     <text:p text:style-name="P3"/>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P4"><draw:image draw:style-name="fr1" draw:name="Grafik4" text:anchor-type="paragraph" svg:x="16.219cm" svg:y="0.028cm" svg:width="0.766cm" svg:height="0.863cm" draw:z-index="31" xlink:href="#Pictures/10000000000000300000003CD2F223EF.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>Copyright © <text:date style:data-style-name="N5101" text:date-value="2002-06-04">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
-    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/ScatchPad/Vorerkundung-0.4.sxw</text:file-name></text:p>
+    <text:p text:style-name="P4"><draw:image draw:style-name="fr1" draw:name="Grafik4" text:anchor-type="paragraph" svg:x="16.219cm" svg:y="0.028cm" svg:width="0.766cm" svg:height="0.863cm" draw:z-index="31" xlink:href="#Pictures/10000000000000300000003CD2F223EF.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>Copyright © <text:date style:data-style-name="N5106" text:date-value="2002-06-06">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
+    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/work/study.sxw</text:file-name></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Left Page" style:page-master-name="pm3" style:next-style-name="Right Page">
@@ -1044,16 +1041,13 @@
   </style:master-page>
   <style:master-page style:name="Quer" style:page-master-name="pm5">
    <style:header>
-    <text:variable-decls>
-     <text:variable-decl text:value-type="float" text:name="Release"/>
-    </text:variable-decls>
-    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik6" text:anchor-type="paragraph" svg:x="6.636cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="32" xlink:href="#Pictures/10000000000000910000008800000000.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:variable-input text:name="Release" text:description="Releasenummer" text:value-type="float" text:value="0" style:data-style-name="N5000">0</text:variable-input></text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>97</text:editing-cycles></text:span><text:span text:style-name="T4"><text:line-break/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N5037">04.06.02</text:modification-date></text:span></text:p>
-    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">19</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
+    <text:p text:style-name="P1"><draw:image draw:style-name="fr1" draw:name="Grafik6" text:anchor-type="paragraph" svg:x="6.636cm" svg:y="0cm" svg:width="1.351cm" svg:height="1.272cm" draw:z-index="34" xlink:href="#Pictures/10000002000000910000008824F77D6A.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/><text:span text:style-name="T1">Linux </text:span><text:span text:style-name="T2">Information Systems</text:span><text:span text:style-name="T1"> AG</text:span><text:span text:style-name="T3"><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/></text:span><text:span text:style-name="T4">Revision:<text:tab-stop/></text:span><text:span text:style-name="T4">pre0-4</text:span><text:span text:style-name="T4">.</text:span><text:span text:style-name="T4"><text:editing-cycles>102</text:editing-cycles></text:span><text:span text:style-name="T4"><text:line-break/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/>Datum:<text:tab-stop/></text:span><text:span text:style-name="T4"><text:modification-date style:data-style-name="N30">06.06.02</text:modification-date></text:span></text:p>
+    <text:p text:style-name="P2"><text:title>Offener Standard für Dokumentenaustausch</text:title><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/><text:tab-stop/>Seite: <text:tab-stop/><text:page-number text:select-page="current">13</text:page-number> von <text:page-count style:num-format="1">19</text:page-count></text:p>
     <text:p text:style-name="P3"/>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P4"><draw:image draw:style-name="fr1" draw:name="Grafik5" text:anchor-type="paragraph" svg:x="25.705cm" svg:y="0.035cm" svg:width="0.766cm" svg:height="0.863cm" draw:z-index="33"/>Copyright © <text:date style:data-style-name="N5101" text:date-value="2002-06-04">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
-    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/ScatchPad/Vorerkundung-0.4.sxw</text:file-name></text:p>
+    <text:p text:style-name="P4">Copyright © <text:date style:data-style-name="N5106" text:date-value="2002-06-06">2002</text:date> Linux Information Systems AG. Streng Vertraulich! Nicht an Dritte weitergeben!</text:p>
+    <text:p text:style-name="P5">Druck: <text:print-date style:data-style-name="N5084">2002-06-03</text:print-date> Datei: <text:file-name text:display="full">/home/thadden/SO-Explorer/Linux-AG_NOW/BSI-Ausschreibungen/Dokumentenformate/work/study.sxw</text:file-name></text:p>
    </style:footer>
   </style:master-page>
  </office:master-styles>
