@@ -795,7 +795,7 @@
      <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Datei:</text:span><text:span text:style-name="T3"><text:line-break/></text:span></text:p>
     </table:table-cell>
     <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
-     <text:p text:style-name="Text body"><text:file-name text:display="name-and-extension">Vorerkundung-0.4.sdw</text:file-name></text:p>
+     <text:p text:style-name="Text body"><text:file-name text:display="name-and-extension">Vorerkundung-0.4.sxw</text:file-name></text:p>
     </table:table-cell>
     <table:covered-table-cell/>
    </table:table-row>
@@ -898,8 +898,8 @@
      <text:p text:style-name="Textkörper klein">JVT</text:p>
     </table:table-cell>
     <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
-     <text:p text:style-name="Textkörper klein">letzte Änderungen an den Tabellen (RTF, WW)<text:line-break/>Integration Gliederung</text:p>
-     <text:p text:style-name="Textkörper klein">Beautifizierung</text:p>
+     <text:p text:style-name="Textkörper klein">letzte Änderungen an den Tabellen (RTF, WW)<text:line-break/>Gliederung integriert</text:p>
+     <text:p text:style-name="Textkörper klein">Prettifizierung</text:p>
     </table:table-cell>
     <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
      <text:p text:style-name="Textkörper klein"/>

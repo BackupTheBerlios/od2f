@@ -4,7 +4,7 @@
  <manifest:file-entry manifest:media-type="application/vnd.sun.xml.writer" manifest:full-path="/"/>
  <manifest:file-entry manifest:media-type="" manifest:full-path="Configurations/"/>
  <manifest:file-entry manifest:media-type="image/gif" manifest:full-path="Pictures/100000000000008E0000008800000000.gif"/>
- <manifest:file-entry manifest:media-type="image/png" manifest:full-path="Pictures/10000000000000300000003C00000000.png"/>
+ <manifest:file-entry manifest:media-type="image/png" manifest:full-path="Pictures/10000000000000300000003CD2F223EF.png"/>
  <manifest:file-entry manifest:media-type="image/gif" manifest:full-path="Pictures/10000000000000910000008800000000.gif"/>
  <manifest:file-entry manifest:media-type="" manifest:full-path="Pictures/"/>
  <manifest:file-entry manifest:media-type="appication/binary" manifest:full-path="layout-cache"/>
