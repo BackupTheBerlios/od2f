@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office:document-content PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "office.dtd">
+<office:document-content xmlns:office="http://openoffice.org/2000/office" xmlns:style="http://openoffice.org/2000/style" xmlns:text="http://openoffice.org/2000/text" xmlns:table="http://openoffice.org/2000/table" xmlns:draw="http://openoffice.org/2000/drawing" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:number="http://openoffice.org/2000/datastyle" xmlns:svg="http://www.w3.org/2000/svg" xmlns:chart="http://openoffice.org/2000/chart" xmlns:dr3d="http://openoffice.org/2000/dr3d" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="http://openoffice.org/2000/form" xmlns:script="http://openoffice.org/2000/script" office:class="text" office:version="1.0">
+ <office:script/>
+ <office:font-decls>
+  <style:font-decl style:name="StarSymbol" fo:font-family="StarSymbol" style:font-charset="x-symbol"/>
+  <style:font-decl style:name="Symbol" fo:font-family="Symbol" style:font-family-generic="roman" style:font-pitch="variable" style:font-charset="x-symbol"/>
+  <style:font-decl style:name="Courier New" fo:font-family="&apos;Courier New&apos;" style:font-family-generic="modern"/>
+  <style:font-decl style:name="Arial Unicode MS" fo:font-family="&apos;Arial Unicode MS&apos;" style:font-pitch="variable"/>
+  <style:font-decl style:name="Futura1" fo:font-family="Futura" style:font-style-name="Fett" style:font-pitch="variable"/>
+  <style:font-decl style:name="Futura" fo:font-family="Futura" style:font-style-name="Light" style:font-pitch="variable"/>
+  <style:font-decl style:name="HG Mincho Light J" fo:font-family="&apos;HG Mincho Light J&apos;" style:font-pitch="variable"/>
+  <style:font-decl style:name="futura" fo:font-family="futura" style:font-pitch="variable"/>
+  <style:font-decl style:name="futura1" fo:font-family="futura" style:font-style-name="extrablack condensed" style:font-pitch="variable"/>
+  <style:font-decl style:name="Garamond" fo:font-family="Garamond" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-decl style:name="Times New Roman" fo:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-decl style:name="Arial" fo:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-decl style:name="Arial Narrow" fo:font-family="&apos;Arial Narrow&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-decl style:name="Frutiger 45 Light" fo:font-family="&apos;Frutiger 45 Light&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-decl style:name="helvetica" fo:font-family="helvetica" style:font-family-generic="swiss" style:font-pitch="variable"/>
+ </office:font-decls>
+ <office:automatic-styles>
+  <style:style style:name="Tabelle1" style:family="table">
+   <style:properties style:width="16.508cm" table:align="left" style:shadow="none"/>
+  </style:style>
+  <style:style style:name="Tabelle1.A" style:family="table-column">
+   <style:properties style:column-width="4.577cm"/>
+  </style:style>
+  <style:style style:name="Tabelle1.B" style:family="table-column">
+   <style:properties style:column-width="5.071cm"/>
+  </style:style>
+  <style:style style:name="Tabelle1.C" style:family="table-column">
+   <style:properties style:column-width="6.858cm"/>
+  </style:style>
+  <style:style style:name="Tabelle1.1" style:family="table-row">
+   <style:properties style:row-height="1.016cm"/>
+  </style:style>
+  <style:style style:name="Tabelle1.A1" style:family="table-cell">
+   <style:properties fo:padding="0.074cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Tabelle1.B1" style:family="table-cell">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="none"/>
+  </style:style>
+  <style:style style:name="Tabelle1.B2" style:family="table-cell" style:data-style-name="N100">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="none"/>
+  </style:style>
+  <style:style style:name="Tabelle5" style:family="table">
+   <style:properties style:width="16.999cm" table:align="left"/>
+  </style:style>
+  <style:style style:name="Tabelle5.A" style:family="table-column">
+   <style:properties style:column-width="1.376cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.B" style:family="table-column">
+   <style:properties style:column-width="1.693cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.C" style:family="table-column">
+   <style:properties style:column-width="1.773cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.D" style:family="table-column">
+   <style:properties style:column-width="7.375cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.E" style:family="table-column">
+   <style:properties style:column-width="2.626cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.F" style:family="table-column">
+   <style:properties style:column-width="2.15cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.1" style:family="table-row">
+   <style:properties style:min-row-height="0.706cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.A1" style:family="table-cell">
+   <style:properties fo:background-color="#666666" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="0.035cm solid #808080" fo:border-bottom="0.035cm solid #808080">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle5.B1" style:family="table-cell">
+   <style:properties fo:vertical-align="top" fo:background-color="#666666" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="0.035cm solid #808080" fo:border-bottom="0.035cm solid #808080">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle5.F1" style:family="table-cell">
+   <style:properties fo:background-color="#666666" fo:padding="0.074cm" fo:border="0.035cm solid #808080">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle5.2" style:family="table-row">
+   <style:properties style:min-row-height="0.529cm"/>
+  </style:style>
+  <style:style style:name="Tabelle5.A2" style:family="table-cell" style:data-style-name="N100">
+   <style:properties fo:vertical-align="top" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.B2" style:family="table-cell" style:data-style-name="N37">
+   <style:properties fo:vertical-align="bottom" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.C2" style:family="table-cell">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.F2" style:family="table-cell" style:data-style-name="N83">
+   <style:properties fo:vertical-align="top" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="0.035cm solid #808080" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.A3" style:family="table-cell" style:data-style-name="N100">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.B4" style:family="table-cell" style:data-style-name="N37">
+   <style:properties fo:vertical-align="" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle5.F4" style:family="table-cell" style:data-style-name="N83">
+   <style:properties fo:vertical-align="bottom" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="0.035cm solid #808080" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle4" style:family="table">
+   <style:properties style:width="16.999cm" table:align="left"/>
+  </style:style>
+  <style:style style:name="Tabelle4.A" style:family="table-column">
+   <style:properties style:column-width="1.143cm"/>
+  </style:style>
+  <style:style style:name="Tabelle4.B" style:family="table-column">
+   <style:properties style:column-width="13.621cm"/>
+  </style:style>
+  <style:style style:name="Tabelle4.C" style:family="table-column">
+   <style:properties style:column-width="2.23cm"/>
+  </style:style>
+  <style:style style:name="Tabelle4.1" style:family="table-row">
+   <style:properties style:min-row-height="0.706cm"/>
+  </style:style>
+  <style:style style:name="Tabelle4.A1" style:family="table-cell">
+   <style:properties fo:background-color="#666666" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="0.035cm solid #808080" fo:border-bottom="0.035cm solid #808080">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle4.C1" style:family="table-cell">
+   <style:properties fo:background-color="#666666" fo:padding="0.074cm" fo:border="0.035cm solid #808080">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle4.2" style:family="table-row">
+   <style:properties style:min-row-height="0.529cm"/>
+  </style:style>
+  <style:style style:name="Tabelle4.A2" style:family="table-cell" style:data-style-name="N100">
+   <style:properties fo:vertical-align="top" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle4.B2" style:family="table-cell">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle4.C2" style:family="table-cell" style:data-style-name="N83">
+   <style:properties fo:vertical-align="top" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="0.035cm solid #808080" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle4.A3" style:family="table-cell" style:data-style-name="N100">
+   <style:properties fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle4.C3" style:family="table-cell" style:data-style-name="N83">
+   <style:properties fo:vertical-align="bottom" fo:padding="0.074cm" fo:border-left="0.035cm solid #808080" fo:border-right="0.035cm solid #808080" fo:border-top="none" fo:border-bottom="0.035cm solid #808080"/>
+  </style:style>
+  <style:style style:name="Tabelle2" style:family="table" style:master-page-name="Quer">
+   <style:properties style:width="26.725cm" fo:margin-left="0cm" fo:margin-right="-0.025cm" style:page-number="0" fo:break-before="page" table:align="margins" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="Tabelle2.A" style:family="table-column">
+   <style:properties style:column-width="4.404cm" style:rel-column-width="2497*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.B" style:family="table-column">
+   <style:properties style:column-width="2.051cm" style:rel-column-width="1163*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.C" style:family="table-column">
+   <style:properties style:column-width="5.997cm" style:rel-column-width="3400*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.D" style:family="table-column">
+   <style:properties style:column-width="13.16cm" style:rel-column-width="7461*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.E" style:family="table-column">
+   <style:properties style:column-width="0.534cm" style:rel-column-width="303*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.F" style:family="table-column">
+   <style:properties style:column-width="0.568cm" style:rel-column-width="322*"/>
+  </style:style>
+  <style:style style:name="Tabelle2.A1" style:family="table-cell">
+   <style:properties fo:background-color="#e6e6e6" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle2.F1" style:family="table-cell">
+   <style:properties fo:background-color="#e6e6e6" fo:padding="0.097cm" fo:border="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle2.A2" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.002cm solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabelle2.C2" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="none"/>
+  </style:style>
+  <style:style style:name="Tabelle2.F2" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="0.002cm solid #000000" fo:border-top="none" fo:border-bottom="0.002cm solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabelle2.C3" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="none"/>
+  </style:style>
+  <style:style style:name="Tabelle2.D7" style:family="table-cell">
+   <style:properties fo:background-color="#ffff00" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="none">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle2.C8" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="0.002cm solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabelle2.D8" style:family="table-cell">
+   <style:properties fo:background-color="#ffff00" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle2.D9" style:family="table-cell">
+   <style:properties fo:background-color="transparent" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle2.D10" style:family="table-cell">
+   <style:properties fo:background-color="#ffff00" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle3" style:family="table">
+   <style:properties style:width="26.7cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:break-before="auto" fo:break-after="auto" table:align="margins" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="Tabelle3.A" style:family="table-column">
+   <style:properties style:column-width="5.202cm" style:rel-column-width="2949*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.B" style:family="table-column">
+   <style:properties style:column-width="1.619cm" style:rel-column-width="918*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.C" style:family="table-column">
+   <style:properties style:column-width="6.687cm" style:rel-column-width="3791*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.D" style:family="table-column">
+   <style:properties style:column-width="12.104cm" style:rel-column-width="6862*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.E" style:family="table-column">
+   <style:properties style:column-width="0.52cm" style:rel-column-width="295*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.F" style:family="table-column">
+   <style:properties style:column-width="0.557cm" style:rel-column-width="316*"/>
+  </style:style>
+  <style:style style:name="Tabelle3.A1" style:family="table-cell">
+   <style:properties fo:background-color="#e6e6e6" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="0.002cm solid #000000" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle3.F1" style:family="table-cell">
+   <style:properties fo:background-color="#e6e6e6" fo:padding="0.097cm" fo:border="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle3.A2" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.002cm solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabelle3.D2" style:family="table-cell">
+   <style:properties fo:background-color="transparent" fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.002cm solid #000000">
+    <style:background-image/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="Tabelle3.F2" style:family="table-cell">
+   <style:properties fo:padding="0.097cm" fo:border-left="0.002cm solid #000000" fo:border-right="0.002cm solid #000000" fo:border-top="none" fo:border-bottom="0.002cm solid #000000"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="First Page">
+   <style:properties style:font-name="futura1" fo:font-size="12pt" fo:font-weight="bold" style:page-number="1"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:margin-top="0.423cm" fo:margin-bottom="0.423cm" style:font-name="futura1" fo:font-size="12pt" fo:text-align="end" style:justify-single-word="false">
+    <style:tab-stops/>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties style:font-name="futura1" fo:font-size="12pt" fo:line-height="0.423cm"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Überschrift i">
+   <style:properties style:font-name="futura1" fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:margin-top="0.148cm" fo:margin-bottom="0.064cm" fo:color="#ffffff" style:font-name="futura1" fo:font-weight="bold" fo:line-height="0.318cm" fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:margin-top="0.148cm" fo:margin-bottom="0.064cm" fo:line-height="0.318cm" fo:text-align="start" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:margin-top="0.148cm" fo:margin-bottom="0.064cm" fo:color="#ffffff" style:font-name="futura1" fo:font-weight="bold" fo:line-height="0.318cm"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Textkörper klein">
+   <style:properties fo:text-align="end" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Textkörper klein">
+   <style:properties fo:text-align="start" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:text-align="start" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties style:font-name="futura1" fo:font-size="10pt" fo:text-align="start" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties style:font-name="futura1" fo:font-size="12pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Überschrift i">
+   <style:properties style:font-name="futura1"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties fo:margin-top="0.148cm" fo:margin-bottom="0.064cm" style:font-name="futura1" fo:line-height="0.318cm" fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
+   <style:properties style:font-name="futura1"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Contents Heading">
+   <style:properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Contents 1">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Contents 2">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Contents 3">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Contents 4">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Table index heading">
+   <style:properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Table index 1">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="17cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Text body">
+   <style:properties style:text-background-color="transparent"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Table Contents">
+   <style:properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Footnote" style:master-page-name="">
+   <style:properties style:break-inside="avoid" style:page-number="0" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Footnote">
+   <style:properties style:break-inside="avoid" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text body" style:master-page-name="Standard">
+   <style:properties style:page-number="0"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L1"/>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L2"/>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L3" style:master-page-name="">
+   <style:properties style:break-inside="avoid" style:page-number="0" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L3">
+   <style:properties style:break-inside="avoid" fo:keep-with-next="true"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L4"/>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L5"/>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L6" style:master-page-name="">
+   <style:properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:page-number="0"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L6">
+   <style:properties fo:margin-top="0cm" fo:margin-bottom="0cm"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L6"/>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L7">
+   <style:properties fo:margin-top="0cm" fo:margin-bottom="0cm"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L7"/>
+  <style:style style:name="T1" style:family="text">
+   <style:properties fo:font-size="12pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:properties fo:font-size="12pt"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:properties fo:color="#ffffff" style:font-name="futura1" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:properties fo:color="#ffffff" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:properties style:text-background-color="transparent"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:properties style:text-position="super 58%"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:properties style:font-name="StarSymbol"/>
+  </style:style>
+  <style:style style:name="Sect1" style:family="section">
+   <style:properties>
+    <style:columns fo:column-count="0" fo:column-gap="0cm"/>
+   </style:properties>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" style:num-suffix=")" style:num-format="a">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix=")" style:num-format="a" text:display-levels="2">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix=")" style:num-format="a">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L5">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L6">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="0.499cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="0.999cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="1.498cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="1.997cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="2.496cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="2.995cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="3.494cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="3.994cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="4.493cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L7">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="0.499cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="0.999cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="1.498cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="1.997cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="2.496cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="2.995cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="3.494cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="3.994cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="–">
+    <style:properties text:space-before="4.493cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <number:date-style style:name="N37" style:family="data-style" number:automatic-order="true">
+   <number:day number:style="long"/>
+   <number:text>.</number:text>
+   <number:month number:style="long"/>
+   <number:text>.</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:date-style style:name="N83" style:family="data-style">
+   <number:year/>
+   <number:text>-</number:text>
+   <number:month number:style="long"/>
+   <number:text>-</number:text>
+   <number:day number:style="long"/>
+  </number:date-style>
+  <number:text-style style:name="N100" style:family="data-style">
+   <number:text-content/>
+  </number:text-style>
+  <number:date-style style:name="N5036" style:family="data-style" number:language="de" number:country="DE" number:automatic-order="true">
+   <number:day number:style="long"/>
+   <number:text>.</number:text>
+   <number:month number:style="long"/>
+   <number:text>.</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+ </office:automatic-styles>
+ <office:body>
+  <text:variable-decls>
+   <text:variable-decl text:value-type="float" text:name="Release"/>
+  </text:variable-decls>
+  <text:sequence-decls>
+   <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+  </text:sequence-decls>
+  <text:p text:style-name="P1"/>
+  <text:p text:style-name="Heading"><text:title>Offener Standard für Dokumentenaustausch</text:title></text:p>
+  <table:table table:name="Tabelle1" table:style-name="Tabelle1">
+   <table:table-column table:style-name="Tabelle1.A"/>
+   <table:table-column table:style-name="Tabelle1.B"/>
+   <table:table-column table:style-name="Tabelle1.C"/>
+   <table:table-row table:style-name="Tabelle1.1">
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Thema:</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:subject>Digitale Dokumente in heterogenen EDV Umgebungen</text:subject></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle1.1">
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Release:</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B2" table:number-columns-spanned="2" table:value-type="float" table:value="0">
+     <text:p text:style-name="Text body"><text:variable-get text:name="Release" text:value-type="float" style:data-style-name="N5000">0</text:variable-get></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle1.1">
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T2">Datum:</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:date style:data-style-name="N5036" text:date-value="2002-06-03" text:fixed="true">03.06.2002</text:date></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle1.1">
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T2">Anzahl Seiten:<text:line-break/></text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:page-count>19</text:page-count></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T2">Autoren:<text:line-break/><text:line-break/><text:line-break/></text:span></text:p>
+    </table:table-cell>
+    <table:table-cell>
+     <table:sub-table>
+      <table:table-column table:style-name="Tabelle1.B"/>
+      <table:table-row>
+       <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+        <text:p text:style-name="Text body"><text:sender-firstname>Joachim</text:sender-firstname> <text:sender-lastname>von Thadden</text:sender-lastname></text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row>
+       <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+        <text:p text:style-name="Text body">Sebastian Hetze</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row>
+       <table:table-cell>
+        <table:sub-table>
+         <table:table-column table:style-name="Tabelle1.B"/>
+         <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+           <text:p text:style-name="Text body"/>
+          </table:table-cell>
+         </table:table-row>
+         <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+           <text:p text:style-name="Text body"/>
+          </table:table-cell>
+         </table:table-row>
+        </table:sub-table>
+       </table:table-cell>
+      </table:table-row>
+     </table:sub-table>
+    </table:table-cell>
+    <table:table-cell>
+     <table:sub-table>
+      <table:table-column table:style-name="Tabelle1.C"/>
+      <table:table-row>
+       <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+        <text:p text:style-name="Text body"><text:sender-email>j.thadden@linux-ag.de</text:sender-email></text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row>
+       <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+        <text:p text:style-name="Text body">s.hetze@linux-ag.de</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row>
+       <table:table-cell>
+        <table:sub-table>
+         <table:table-column table:style-name="Tabelle1.C"/>
+         <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+           <text:p text:style-name="Text body"/>
+          </table:table-cell>
+         </table:table-row>
+         <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.B1" table:value-type="string">
+           <text:p text:style-name="Text body"/>
+          </table:table-cell>
+         </table:table-row>
+        </table:sub-table>
+       </table:table-cell>
+      </table:table-row>
+     </table:sub-table>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="P2"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"/>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Datei:</text:span><text:span text:style-name="T3"><text:line-break/></text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:file-name text:display="name-and-extension">Vorerkundung-0.4.sdw</text:file-name></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Zusammenfassung:<text:line-break/></text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:description>Digitale Prozesse erfordern herstellerübergreifenden Austausch von digitalen Dokumenten zwischen Programmen und Plattformen. Diese Studie zeigt einen Weg zur Entwicklung und Einführung eines offenen Standards zum Austausch von Textdokumenten auf.</text:description></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle1.A1" table:value-type="string">
+     <text:p text:style-name="Zeilenkopf"><text:span text:style-name="T1">Verteiler:<text:line-break/></text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle1.B1" table:number-columns-spanned="2" table:value-type="string">
+     <text:p text:style-name="Text body"><text:placeholder text:placeholder-type="text" text:description="Namen oder Gruppen/Abteilungen einfügen">&lt;Verteiler&gt;</text:placeholder></text:p>
+    </table:table-cell>
+    <table:covered-table-cell/>
+   </table:table-row>
+  </table:table>
+  <text:p text:style-name="P3"/>
+  <text:h text:style-name="P4" text:level="1">Versionskontrolle</text:h>
+  <table:table table:name="Tabelle5" table:style-name="Tabelle5">
+   <table:table-column table:style-name="Tabelle5.A"/>
+   <table:table-column table:style-name="Tabelle5.B"/>
+   <table:table-column table:style-name="Tabelle5.C"/>
+   <table:table-column table:style-name="Tabelle5.D"/>
+   <table:table-column table:style-name="Tabelle5.E"/>
+   <table:table-column table:style-name="Tabelle5.F"/>
+   <table:table-row table:style-name="Tabelle5.1">
+    <table:table-cell table:style-name="Tabelle5.A1" table:value-type="string">
+     <text:p text:style-name="P5">Rev.</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.B1" table:value-type="string">
+     <text:p text:style-name="P6"><text:span text:style-name="T4">Datum</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.A1" table:value-type="string">
+     <text:p text:style-name="P7">Autor</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.A1" table:value-type="string">
+     <text:p text:style-name="P5">Beschreibung der Änderung</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.A1" table:value-type="string">
+     <text:p text:style-name="P5">Genehmigt</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.F1" table:value-type="string">
+     <text:p text:style-name="P5">Datum</text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle5.2">
+    <table:table-cell table:style-name="Tabelle5.A2" table:value-type="float" table:value="1">
+     <text:p text:style-name="Textkörper klein">0.1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.B2" table:value-type="date" table:date-value="2002-05-31">
+     <text:p text:style-name="P8">31.05.02</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">JVT/SHE</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">initiale Version</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.F2" table:value-type="date">
+     <text:p text:style-name="P9"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle5.2">
+    <table:table-cell table:style-name="Tabelle5.A3" table:value-type="float" table:value="0">
+     <text:p text:style-name="Textkörper klein">0.2</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.B2" table:value-type="date" table:date-value="2002-06-03">
+     <text:p text:style-name="P8">03.06.02</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">JVT/SHE</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">Einleitung, 1.1 und 1.2 mit Übersichtstabelle</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.F2" table:value-type="date">
+     <text:p text:style-name="P10"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle5.2">
+    <table:table-cell table:style-name="Tabelle5.A3" table:value-type="float" table:value="0">
+     <text:p text:style-name="Textkörper klein">0.3</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.B4" table:value-type="date" table:date-value="2002-06-03">
+     <text:p text:style-name="P8">03.06.02</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">JVT</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">letzte Änderungen an den Tabellen (RTF, WW)<text:line-break/>Integration Gliederung</text:p>
+     <text:p text:style-name="Textkörper klein">Beautifizierung</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.F4" table:value-type="date">
+     <text:p text:style-name="P11"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle5.2">
+    <table:table-cell table:style-name="Tabelle5.A3" table:value-type="float" table:value="0">
+     <text:p text:style-name="Textkörper klein">0.4</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.B2" table:value-type="date">
+     <text:p text:style-name="P8"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">JVT</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein">Korrekturen</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.C2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle5.F4" table:value-type="date">
+     <text:p text:style-name="P11"/>
+    </table:table-cell>
+   </table:table-row>
+  </table:table>
+  <text:p text:style-name="P12"/>
+  <text:h text:style-name="P13" text:level="1">Referenzierte Dokumente</text:h>
+  <table:table table:name="Tabelle4" table:style-name="Tabelle4">
+   <table:table-column table:style-name="Tabelle4.A"/>
+   <table:table-column table:style-name="Tabelle4.B"/>
+   <table:table-column table:style-name="Tabelle4.C"/>
+   <table:table-row table:style-name="Tabelle4.1">
+    <table:table-cell table:style-name="Tabelle4.A1" table:value-type="string">
+     <text:p text:style-name="P14"><text:span text:style-name="T5">Rev.</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.A1" table:value-type="string">
+     <text:p text:style-name="P5">Titel des referenzierten Dokuments</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.C1" table:value-type="string">
+     <text:p text:style-name="P5">Datum</text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle4.2">
+    <table:table-cell table:style-name="Tabelle4.A2" table:value-type="float">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.B2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.C2" table:value-type="date">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row table:style-name="Tabelle4.2">
+    <table:table-cell table:style-name="Tabelle4.A3" table:value-type="float">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.B2" table:value-type="string">
+     <text:p text:style-name="Textkörper klein"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle4.C3" table:value-type="date">
+     <text:p text:style-name="P11"/>
+    </table:table-cell>
+   </table:table-row>
+  </table:table>
+  <text:p text:style-name="P15"/>
+  <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Inhaltsverzeichnis1">
+   <text:table-of-content-source text:outline-level="10">
+    <text:index-title-template text:style-name="Contents Heading">Inhalt</text:index-title-template>
+    <text:table-of-content-entry-template text:outline-level="1" text:style-name="Contents 1">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="2" text:style-name="Contents 1">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="3" text:style-name="Contents 2">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="4" text:style-name="Contents 3">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="5" text:style-name="Contents 4">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="6" text:style-name="Contents 5">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="7" text:style-name="Contents 6">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="8" text:style-name="Contents 7">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="9" text:style-name="Contents 8">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="10" text:style-name="Contents 9">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+   </text:table-of-content-source>
+   <text:index-body>
+    <text:index-title text:style-name="Sect1" text:name="Inhaltsverzeichnis1_Head">
+     <text:p text:style-name="P16">Inhalt</text:p>
+    </text:index-title>
+    <text:p text:style-name="P17">i Versionskontrolle<text:tab-stop/><text:a xlink:type="simple" xlink:href="#1.Versionskontrolle%7Coutline">2</text:a></text:p>
+    <text:p text:style-name="P17">ii Referenzierte Dokumente<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.ReferenzierteDokumente%7Coutline">2</text:a></text:p>
+    <text:p text:style-name="P17">Einleitung<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.Einleitung%7Coutline">6</text:a></text:p>
+    <text:p text:style-name="P18">1 Vorerkundung und Themenabgrenzung<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.1.VorerkundungundThemenabgrenzung%7Coutline">8</text:a></text:p>
+    <text:p text:style-name="P19">1.1 Abgrenzung Textformate und andere Dokumentformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.1.1.AbgrenzungTextformateundandereDokumentformate%7Coutline">9</text:a></text:p>
+    <text:p text:style-name="P19">1.2 Dokumentformate im Überblick<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.1.2.Dokumentformateimberblick%7Coutline">10</text:a></text:p>
+    <text:p text:style-name="P18">2 Bestandsaufnahme Textaustausch<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.BestandsaufnahmeTextaustausch%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.1 Definition und Abgrenzung<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.1.DefinitionundAbgrenzung%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.2 Proprietäre Textaustauschformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.ProprietreTextaustauschformate%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.2.1 Austauschformate zum Bearbeiten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.1.AustauschformatezumBearbeiten%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.2.2 Austauschformate zur Weitergabe<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.2.AustauschformatezurWeitergabe%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.2.3 Sicherheitsaspekte proprietärer Austauschformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.3.SicherheitsaspekteproprietrerAustauschformate%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.2.4 Auszeichnungsqualität<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.4.Auszeichnungsqualitt%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.2.5 Dauerhaftigkeitsbetrachtungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.2.5.Dauerhaftigkeitsbetrachtungen%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.3 Offene Textaustauschformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.OffeneTextaustauschformate%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.1 Austauschformate zum Bearbeiten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.1.AustauschformatezumBearbeiten%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.2 Austauschformate zur Weitergabe<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.2.AustauschformatezurWeitergabe%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.3 Austauschformate auf Basis von XML<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.3.AustauschformateaufBasisvonXML%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.4 Sicherheitsaspekte offener Austauschformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.4.SicherheitsaspekteoffenerAustauschformate%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.5 Auszeichnungsqualität<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.5.Auszeichnungsqualitt%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.3.6 Dauerhaftigkeitsbetrachtungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.3.6.Dauerhaftigkeitsbetrachtungen%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.4 Möglichkeiten des Dokumentenmamangements<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.4.MglichkeitendesDokumentenmamangements%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.5 Rechtliche Fragestellungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.5.RechtlicheFragestellungen%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.6 Versuch einer ersten Definition einer Metamenge von Formaten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.6.VersucheinererstenDefinitioneinerMetamengevonFormaten%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.6.1 Differenzierung nach Inhalt, Form, Einbettung und dynamischen Inhalten<text:line-break/>(Makros und Skripte)<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.6.1.DifferenzierungnachInhalt,Form,EinbettungunddynamischenInhalten(MakrosundSkripte)%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.6.2 Differenzierung nach Layout<text:line-break/>(z. B. Seiten- und framebasierte Formate)<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.6.2.DifferenzierungnachLayout(z.B.Seiten-undframebasierteFormate)%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.6.3 Festlegung auf Beispielformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.6.3.FestlegungaufBeispielformate%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P20">2.6.4 Abbildung des Metaformats<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.6.4.AbbildungdesMetaformats%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P19">2.7 Diskussion unter besonderer Berücksichtigung von Auszeichnungsqualität <text:line-break/>und Sicherheitsaspekten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.2.7.DiskussionunterbesondererBercksichtigungvonAuszeichnungsqualittundSicherheitsaspekten%7Coutline">16</text:a></text:p>
+    <text:p text:style-name="P18">3 Aktuelle Entwicklungen in Dokumentaustauschformaten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.AktuelleEntwicklungeninDokumentaustauschformaten%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.1 Übersicht<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.1.bersicht%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.2 LATEX als Beispiel einer Textauszeichnungssprache<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.2.LATEXalsBeispieleinerTextauszeichnungssprache%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.3 XML versus SGML - Betrachtungen eines Scheiterns<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.3.XMLversusSGML-BetrachtungeneinesScheiterns%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.4 Offene Projekte und ihre XML-Basis<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.4.OffeneProjekteundihreXML-Basis%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.5 Austauschformate auf Basis von XML<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.5.AustauschformateaufBasisvonXML%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.6 verfügbare freie Komponenten zum Umgang mit XML<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.6.verfgbarefreieKomponentenzumUmgangmitXML%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.7 verfügbare proprietäre Komponenten zum Umgang mit XML<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.7.verfgbareproprietreKomponentenzumUmgangmitXML%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.8 Kompatibilitätsbetrachtungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.8.Kompatibilittsbetrachtungen%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P19">3.9 Ausblick<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.3.9.Ausblick%7Coutline">17</text:a></text:p>
+    <text:p text:style-name="P18">4 Anforderungen an einen freien, offenen Textdokumentenstandard<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.Anforderungenaneinenfreien,offenenTextdokumentenstandard%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.1 Kompatibilität und Vollständigkeit<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.1.KompatibilittundVollstndigkeit%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.2 Sicherheit<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.2.Sicherheit%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.3 Weiterverarbeitbarkeit (Toolketten)<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.3.Weiterverarbeitbarkeit(Toolketten)%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.4 Erweiterbarkeit und Abwärtskompatibilität<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.4.ErweiterbarkeitundAbwrtskompatibilitt%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.5 Integrierbarkeit in bestehende Anwendungen und Abläufe<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.5.IntegrierbarkeitinbestehendeAnwendungenundAblufe%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P19">4.6 Versuch einer beispielhaften Definition einer DTD basierend auf den bisherigen Ergebnissen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.4.6.VersucheinerbeispielhaftenDefinitioneinerDTDbasierendaufdenbisherigenErgebnissen%7Coutline">18</text:a></text:p>
+    <text:p text:style-name="P18">5 Vorgehenskonzept zur Einführung eines freien, offenen Textdokumentenstandards<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.VorgehenskonzeptzurEinfhrungeinesfreien,offenenTextdokumentenstandards%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P19">5.1 Methoden zur Definition und Etablierung eines Standards für Textdokumentformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.1.MethodenzurDefinitionundEtablierungeinesStandardsfrTextdokumentformate%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P19">5.2 Vollständige Migration auf ein Textverarbeitungssystem mit offenem Standard<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.2.VollstndigeMigrationaufeinTextverarbeitungssystemmitoffenemStandard%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.2.1 Kompatibilitätsbetrachtungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.2.1.Kompatibilittsbetrachtungen%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.2.2 Psychosoziale Faktoren<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.2.2.PsychosozialeFaktoren%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.2.3 Folgenabschätzung<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.2.3.Folgenabschtzung%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.2.4 Diskussion<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.2.4.Diskussion%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P19">5.3 Einbindung von anderen Office Anwendungen<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.3.EinbindungvonanderenOfficeAnwendungen%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.3.1 Adaption von offenen Standards durch den Hersteller<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.3.1.AdaptionvonoffenenStandardsdurchdenHersteller%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.3.2 Chancen für ein Plugin für MS Office<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.3.2.ChancenfreinPluginfrMSOffice%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.3.3 Chancen für ein Plugin für andere Office Produkte<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.3.3.ChancenfreinPluginfrandereOfficeProdukte%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P20">5.3.4 Diskussion<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.3.4.Diskussion%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P19">5.4 Eigenständige Software zur Konvertierung von Dokumentformaten<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.4.EigenstndigeSoftwarezurKonvertierungvonDokumentformaten%7Coutline">19</text:a></text:p>
+    <text:p text:style-name="P19">5.5 Maßnahmenkatalog zur Förderung der Einführung eines freien und offenen Standards für Textdokumentformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.1.5.5.ManahmenkatalogzurFrderungderEinfhrungeinesfreienundoffenenStandardsfrTextdokumentformate%7Coutline">19</text:a></text:p>
+   </text:index-body>
+  </text:table-of-content>
+  <text:table-index text:style-name="Sect1" text:protected="true" text:name="Tabellenverzeichnis1">
+   <text:table-index-source text:caption-sequence-name="Tabelle" text:caption-sequence-format="text">
+    <text:index-title-template text:style-name="Table index heading">Tabellen</text:index-title-template>
+    <text:table-index-entry-template text:style-name="Table index 1">
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-index-entry-template>
+   </text:table-index-source>
+   <text:index-body>
+    <text:index-title text:style-name="Sect1" text:name="Tabellenverzeichnis1_Head">
+     <text:p text:style-name="P21">Tabellen</text:p>
+    </text:index-title>
+    <text:p text:style-name="P22">Tabelle 1: Dokumentformate zum Bearbeiten<text:tab-stop/>12</text:p>
+    <text:p text:style-name="P22">Tabelle 2: Dokumentformate zur Weitergabe<text:tab-stop/>13</text:p>
+   </text:index-body>
+  </text:table-index>
+  <text:h text:style-name="Heading 1" text:level="2">Einleitung</text:h>
+  <text:p text:style-name="Text body">Mit der Einführung von Personalcomputern (PC) am Arbeitsplatz wurden zunächst die traditionellen analogen Prozesse in der elektronischen Datenverarbeitung (EDV) abgebildet. Der PC arbeitete als Schreibmaschine, als besserer Tischrechner oder als Zeichenbrett. Schnell haben sich die Programme weiterentwickelt und die Prozesse haben sich von den Vorbildern der analogen Welt entfernt. Dokumente werden nicht mehr per Durchschlag oder Kopie vervielfältigt und im Briefumschlag verschickt sondern als Attachment per Email simultan an beliebig viele Empfänger übertragen. Mit den vom Computer erstellten Dokumenten haben sich neue, kooperative Arbeitsformen entwickelt. Prozesse, die in der analogen Welt zeitaufwändig und handwerklich zu erledigen waren, werden in der digitalen Welt des Computers in Sekundenbruchteilen fehlerfrei und vollautomatisch durchgeführt.</text:p>
+  <text:p text:style-name="Text body">Wo in der analogen Welt die Akte, der Brief, die Notiz oder das Formular im Zentrum eines bestimmten Prozesses stand, steht in der computerisierten Welt ein digitales Dokument. So ein digitales Dokument wird unter Verwendung eines Computerprogramms erzeugt, be­arbeitet, eventuell gedruckt und schließlich als Datei auf Festplatte gespeichert. Als Papierausdruck kann ein solches Dokument ohne weiteres in den traditionellen analogen Prozess integriert werden. Sofern das digitale Dokument Bestandteil eines computergestütz­ten Prozesses ist, kann es in Form einer Datei zwischen möglicherweise unterschiedlichen Programmen auf möglicherweise unterschiedlichen Computersystemen ausgetauscht werden.</text:p>
+  <text:p text:style-name="Text body">In der analogen Welt sind Form und Inhalt eines Dokuments fest an das Medium gebunden. Typischerweise läßt sich bei einem Dokument in der analogen Welt einfach ent­scheiden, was ein Original und was eine Kopie ist. Die Schnittstelle, für die das analoge Dokument erstellt wurde, ist das menschliche Auge, verarbeitet wird es vom menschlichen Verstand.</text:p>
+  <text:p text:style-name="Text body">All diese Einschränkungen oder auch diese klaren Bezüge fallen bei einem digitalen Dokument weg: es können beliebig viele identische Kopien von ihnen erzeugt werden und sie lassen sich einfach durch andere Computerprogramme bearbeiten. Das Computerprogramm, mit dem ein digitales Dokument erstellt wird, verwendet eine im Programm verborgene digitale Repräsentation von Form und Inhalt. Wenn ein Computerprogramm ein digitales Dokument speichert, legt es die Daten aus der internen digitalen Repräsentation so in einer Datei auf der Festplatte ab, das es sie bei einem spä­teren Laden dieser Datei in genau die gleiche interne Repräsentation reproduzieren kann. Diese Datei kann kopiert werden und die Kopie erzeugt dann wiederum die gleich interne Repräsentation des Dokuments. Die Kopien lassen sich also nicht voneinander unterscheiden.</text:p>
+  <text:p text:style-name="Text body">Um die Reproduzierbarkeit zu erreichen, wird die Datei in einem bestimmten Format angelegt. Solch ein Format, in dem die interne digitale Repräsentation eines Dokumentes auf Festplatte gespeichert wird, um daraus später wieder eine identische Repräsentation des Dokumentes in das Programm zu laden, bezeichnen wir als Dokumentformat. Eine Datei mit Dokumentformat ist eine externe Repräsentation des digitalen Dokumentes, das in ihr gespeichert wurde.</text:p>
+  <text:p text:style-name="Text body">Die interne Repräsentation eines digitalen Dokuments ist völlig programmspezifisch. Ebenso ist deshalb auch in der Regel die externe Repräsentation und damit das Dokumentformat programmspezifisch. Inwieweit so ein Dokumentformat innerhalb eines digitalen Prozesses von einem anderen Programm verstanden und weiterverarbeitet werden kann, bleibt zu­nächst eine offene Frage.</text:p>
+  <text:p text:style-name="Text body">In der Praxis verteilter Unternehmen und Verwaltungen, globaler Kooperationen und Allianzen werden diese programmspezifischen Dokumentformate immer mehr zu einer Last. In den digitalen Prozessen der modernen Organisationen müssen digitale Dokumente von unterschiedlichsten Programmen fehlerfrei bearbeitet werden können. Abweichungen in der Interpretation von Dokumentformaten unterschiedlicher Herkunft (Hersteller oder Programmversion) sind inakzeptabel.</text:p>
+  <text:p text:style-name="Text body">In zunehmend papierlos arbeitenden Organisationen werden durch das Management der digitalen Dokumente zusätzliche Anforderungen an das Dokumentformat gestellt. Unter anderem muss sichergestellt sein, dass digitale Dokumente über einen eventuell gesetzlich vorgeschriebenen Zeitraum verfügbar bleiben. Für bestimmte Dokumente kann diese Frist bis zu 60 Jahre betragen.</text:p>
+  <text:p text:style-name="Text body">Damit die digitalen Prozesse in den modernen Volkswirtschaften nicht durch programmspe­zifische Dokumentformate behindert werden, ist die Entwicklung und Einführung von stan­dardisierten Dokumentformaten für den Austausch, die automatische Verarbeitung und die langfristige Archivierung dringend erforderlich.</text:p>
+  <text:h text:style-name="Heading 2" text:level="3">Vorerkundung und Themenabgrenzung</text:h>
+  <text:p text:style-name="Text body">Die Umstellung von analogen auf digitale Prozesse in den Verwaltungen ist sehr weit fortgeschritten. Digitale Dokumente, die in mehr oder weniger programmspezifischen Dokumentformaten gespeichert und ausgetauscht werden, sind in praktisch jedem Büro in unüberschaubarer Zahl zu finden. Beispielsweise tauchen sie auf als HTML-Webseite, Email, JPG-Bild oder als Excel Tabelle, Word Dokument, Powerpoint Präsentation. Die Formate, in denen diese Dokumente gespeichert werden, können in offenen Standards definiert sein oder für ein Programm oder gar eine bestimmte Programmversion eines Herstellers spezi­fisch sein. </text:p>
+  <text:p text:style-name="Text body">Um der Frage nach möglichen Standards für den Dokumentaustausch nachgehen zu können, muss zunächst geklärt werde, für wen beziehungsweise für welche Programme dieser Dokumentautausch stattfinden soll. Vorbehaltlich einer späteren detaillierten Abgrenzung kann gesagt werden, dass der Austausch von Dokumenten nur innerhalb einer Klasse von Programmen betrachtet werden muss. Textdokumente werden zwischen Textverarbeitungsprogrammen ausgetauscht, Rechenblätter zwischen Tabellenkalkulationsprogrammen und Bilder zwischen Grafikprogrammen. </text:p>
+  <text:p text:style-name="Text body">Wenn wir den Austausch von Dokumenten innerhalb einer Klasse von Programmen in dem eben beschriebenen Sinne betrachten, müssen wir davon ausgehen, dass diese Programme für die gleichen Dokumente unterschiedliche interne Repräsentationen verwenden. Möglicherweise lässt sich ein bestimmtes Dokument mit den Möglichkeiten der inneren Repräsentation von einem bestimmten Programm gar nicht darstellen, kann also mit diesem Programm weder erzeugt noch weiterverarbeitet werden.</text:p>
+  <text:p text:style-name="Text body">Aus den verschiedenen internen Repräsentationen folgt nicht automatisch, dass verschie­dene Programme auch unterschiedliche Dokumentformate verwenden müssen. In der Praxis ist jedoch genau das die Regel. Diese Praxis kann so weit gehen, dass verschiedene Programmversionen eines Herstellers verschiedene Dateiformate verwenden. Solche Änderungen im Dokumentformat können technisch begründet sein, sie können aber auch Ausdruck einer Produktstrategie sein. Damit deutet sich an, dass auch die Einführung eines Standardformats keine rein technische Frage ist, sondern auch von der Bereitschaft der Hersteller abhängt, solch ein Format einzusetzen beziehungsweise zu unterstützen.</text:p>
+  <text:p text:style-name="Text body">Schon bei der Erzeugung einer Dokumentdatei wird die interne Repräsentation des Dokuments in das Dokumentformat abgebildet. Die Datei ist also nicht einfach der Speicherabzug der internen Repräsentation. Das Dokumentformat ist aber in der Regel stark auf die interne Repräsentation zugeschnitten und die Abbildungsvorschrift deshalb verhält­nismäßig einfach und gradlinig.</text:p>
+  <text:p text:style-name="Text body">Wenn es nicht direkt möglich ist, ein einheitliches Dokumentformat für alle Programme einer Klasse einzuführen, sollte es wenigstens möglich sein, Abbildungsvorschriften zwischen den Dokumentformaten verschiedener Programme zu finden. Die in vielen Programmen enthaltenen Import-Export-Filter implementieren solche Abbildungsvorschriften. Zum Zwecke der Vereinheitlichung und um die Vielfalt der möglichen Übergänge zu reduzieren, könnten diese Abbildungsvorschriften auch ein gemeinsames Dateiformat als Zwischenstufe verwenden.</text:p>
+  <text:p text:style-name="Text body">Da die internen Repräsentationen der Dokumente bei unterschiedlichen Programmen unter Umständen so verschieden sind, dass keine vollständige Abbildung möglich ist, müssen Kriterien für das Standardformat definiert werden, die auch in solchen Fällen praxistaugli­che Ergebnisse möglich machen.</text:p>
+  <text:p text:style-name="Text body">Ohne der eigentlichen Studie vorzugreifen, kann sicher gesagt werden, das für das Standardformat beziehungsweise für die Abbildungsvorschriften die Anforderung der Inhaltstreue gestellt wird. Abgrenzungsfragen tauchen hier nur bei der Definition des Inhaltsbegriffs auf. Bei der Formtreue, die sicher ebenfalls gefordert wird, muss geklärt werden in welcher Detailtiefe diese Forderung praxisrelevant ist. Wenn das Dokument eine Banknote ist, sind Abweichungen bei der Druckdarstellung von wenigen Mikrometern inakzeptabel. Bei üblichen Druckdokumenten werden sich die Anforderungen maximal in dem Bereich bewegen, der bereits durch die Unterschiede zwischen Bildschirm- und Druckdarstellung oder zwischen den mit zwei unterschiedlichen Druckertreibern erzeugten Druckdarstellungen aufgespannt wird.</text:p>
+  <text:p text:style-name="Text body">Für die kooperative Bearbeitung sind eventuell die Anforderungen an Formtreue weniger wichtig als die Forderung nach einer exakt umkehrbaren Abbildungsvorschrift. Wenn also ein Dokument von System A zu System B weitergegeben wird, soll es nach einer eventuellen inhaltlichen Veränderung erst nach einem Rücktransfer zu System A dort wieder formi­dentisch sein.</text:p>
+  <text:p text:style-name="Text body">Um sich angesichts dieser Fragestellungen dem Ziel der Entwicklung und Einführung von standardisierten Dokumentformaten zu nähern, wird im zweiten Kapitel dieser Studie eine Bestandsaufnahme bestehender Dokumentformate vorgenommen. Im dritten Kapitel werden die aktuellen Entwicklungen der Projekte und Hersteller in die Untersuchung einbezogen. Im vierten Kapitel werden dann die Anforderungen an den Standard ermittelt um schließlich im fünften Kapitel in Vorschläge für konkrete Maßnahmen und erste Schritte zu münden.</text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Abgrenzung Textformate und andere Dokumentformate</text:h>
+  <text:p text:style-name="P23">Durch die enge Bindung zwischen Programm und Dokumentformat wird das Programm zu einer Metapher für das Dokumentformat. Die Studie wird zeigen, dass durch die Trennung der inneren Verbindung von spezialisiertem Programm und Dokumentformat die Möglichkeit entsteht, die Informationen, die im Dokument untergebracht werden, auf einer abstrakteren Ebene zu betrachten und damit die Gemeinsamkeiten verschiedener Formate zu lokalisieren.</text:p>
+  <text:p text:style-name="P23">Ein einziges universelles Dokumentformat zu schaffen mit dem Ziel, den Datenaustausch zwischen Organisationen und Firmen wenigstens in einer Weise zu ermöglichen, dass beim Transfer der Daten nicht wesentliche Informationen verloren gehen, erscheint angesichts der Vielzahl proprietärer Dokumentformate als unlösbare Aufgabe. Um wenigstens einen ersten Schritt in die Richtung gehen zu können, <text:s/>ist also eine Abgrenzung und Beschränkung notwendig.</text:p>
+  <text:p text:style-name="Text body"><text:span text:style-name="T6">Bei Betrachtung der verschiedenen spezialisierten Office Programme kann man deren Einsatzformen analysieren. Im Sinne der Migration analoger Prozesse in Digitale ist bis heu­te die Arbeitsweise mit Textdokumenten auf den Ausdruck ausgerichtet. Selbst in der voll di­gitalen Verarbeitung ist die Repräsentation des Druckbildes am Monitor die gewünschte Ansichtsform, die einem Druckbild zu gleichen sucht. Ziel ist die reine Darstellung des Wortes. Im Gegensatz dazu hat eine Tabellenkalkulation die Aufgabe, Tabellenblätter zu berechnen. Diese werden zwar durchaus später ausgedruckt, der Grund für die Verwendung ist jedoch die rechnenfunktionalität. Präsentationsprogramme dienen der Darstellung von Vorträgen. Ihre Funktionalität zielt auf den Ausdruck oder die Ausgabe auf andere bildgebende Medien ab. Sie entsprechen in vielerlei Hinsicht den Textverarbeitungen, bieten jedoch </text:span><text:span text:style-name="T6">eine andere Arbeitsweise mit dem Dokument <text:s/>und </text:span><text:span text:style-name="T6">zusätz­liche Funktionalität zur Präsentation</text:span>.</text:p>
+  <text:p text:style-name="Text body"><text:span text:style-name="T6">Durch die weitgehende Analogie mit der Schreibmaschine ist die Textverarbeitung die ältes­te und am weitesten verbreitete Anwendung auf dem PC im Büro.</text:span> Es ist genau dieses Format, dessen elektronische Archivierung in Behörden und Firmen über einen langen Zeitraum notwendig ist. Zudem ist es <text:span text:style-name="T6">durch Einschlüsse von Bildern, Tabellen, Feldern und Makros bezüglich der Definition eines universellen Austauschformates die anspruchsvollste Kategorie von Office Anwendung.</text:span></text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Dokumentformate im Überblick</text:h>
+  <text:p text:style-name="Text body">Mit der folgenden, nicht auf Vollständigkeit ausgelegten Übersicht vorhandener und verbrei­teter Dokumentformate, erfolgt eine Auswahl konkreter Formate. Dabei werden Dokumentformate unterschieden, die bearbeitbar sind und solche, deren Schwerpunkt die unveränderte Weitergabe ist.</text:p>
+  <text:p text:style-name="Text body">Bei den ersteren steht der Wunsch nach Modifikation oder Kooperation, also dem (mehrfachen) weiterverarbeiten des Dokumentes durch den oder die Empfänger im Vordergrund. Hierfür werden bisher die nativen Dokumentformate der erstellenden Programme verwendet. Ein allgemein akzeptiertes und verfügbares Standardformat für die kooperative Arbeit an Dokumenten ist bisher nicht vorhanden.</text:p>
+  <text:p text:style-name="Text body">Im Gegensatz dazu stehen Dokumentformate, die nicht zum Verändern, sondern lediglich und ganz explizit zur Weitergabe gedacht sind. Üblicherweise werden Dokumente dieser Dokumentformate verwendet, wenn es ausschließlich um den Transport von Inhalt und Formtreue eines Dokumentes geht, also das Dokument eine elektronische Repräsentation des ausgedruckten Dokumentes darstellt. Eine Änderung von Inhalt oder Form ist bei diesen Formaten nicht gewünscht. Diese Formate werden sowohl mit speziellen Programmen er­stellt, als auch durch Filter in Programmen erzeugt, die nativ ein anderes Format zur inter­nen Repräsentation ihrer Texte verwenden.</text:p>
+  <text:p text:style-name="Text body">Die folgende Liste erhebt keinen Anspruch auf Vollständigkeit, berücksichtigt doch die weit verbreiteten Formate. Dabei wird zu jedem Format außer einem später verwendeten Identifikationskürzel auch das Programm mit Versionsnummer genannt, das dieses Format nativ schreibt. In der Übersicht werden auch zur Information die möglichen Betriebssysteme genannt, unter denen das Programm verfügbar ist. Im Vorgriff auf die spätere Untersuchung zum Thema XML wird zudem angegeben, ob das native Speicherformat XML basiert ist.</text:p>
+  <text:p text:style-name="Text body"/>
+  <table:table table:name="Tabelle2" table:style-name="Tabelle2">
+   <table:table-column table:style-name="Tabelle2.A"/>
+   <table:table-column table:style-name="Tabelle2.B"/>
+   <table:table-column table:style-name="Tabelle2.C"/>
+   <table:table-column table:style-name="Tabelle2.D"/>
+   <table:table-column table:style-name="Tabelle2.E"/>
+   <table:table-column table:style-name="Tabelle2.F"/>
+   <table:table-header-rows>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabelle2.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Dokumentformat</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle2.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Kürzel</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle2.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Programm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle2.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Betriebssystem</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle2.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">N</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle2.F1" table:value-type="string">
+      <text:p text:style-name="Table Heading">X</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table-header-rows>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 2000<text:footnote text:id="ftn1"><text:footnote-citation>1</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">Die Bezeichnungen der Word Versionen wechseln bisweilen. Die Version 95 wird auch als Version 7, die Version 98, als Version 8 bezeichnet. Die Version XP wird oft als Version 2002 bezeichnet. Innerhalb der Studie wird die o. a. Bezeichnung verwendet.</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc2000</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 2000</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0 ab SP4, 2000, XP </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"><text:footnote text:id="ftn2"><text:footnote-citation>2</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">Word kann die programmeigene Repräsentation des Dokumentes außer im doc2000-Format auch über einen Exportfilter als html-Seite speichern. Dabei werden Formtinformationen in sogenannten XML-Inseln abgelegt. Beim laden solcher Dokumente in Word 2000 wird das ursprüngliche Dokument komplett wiederhergestellt.</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 2001<text:footnote text:id="ftn3"><text:footnote-citation>3</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">Die Word-Formate sind nicht plattformneutral. Dies liegt an der Implementation von OLE2, auf das im doc-Format zurückgegriffen wird.</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc2001</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 2001</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Mac OS 8.*, 9.*, X</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 2002</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">docXP</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word XP</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95 OSR 2.0, 98, ME, NT 4.0 ab SP6, 2000, XP </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 97</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc97</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 97</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0 ab SP4, 2000, XP </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 95</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc95</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 95</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0 ab SP4, 2000, XP </text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 6 f. Windows</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc6</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C3" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 6 für Windows</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D7" table:value-type="string">
+     <text:p text:style-name="Table Contents">Windows ab 3.1, Lauffähigkeit auf Versionen über NT4 nicht bekannt</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 2 f. Windows</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc2</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.C8" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 2 für Windows</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D8" table:value-type="string">
+     <text:p text:style-name="Table Contents">Windows ab 3.1, Lauffähigkeit auf Versionen über NT4 nicht bekannt</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Rich Text Format</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">rtf</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">viele Textverarbeitungen</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">alle</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✗</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Word 5.5 für Dos</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">doc55dos</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft Word 5.5 für MS-Dos</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D10" table:value-type="string">
+     <text:p text:style-name="Table Contents">MS-Dos ab 5.x, Lauffähigkeit auf Versionen über NT4 nicht bekannt</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">WordPerfect 9</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">wp9</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Corel WordPerfect 9</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP <text:s/><text:line-break/>mehrere Unix-Derivate</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">WordPerfect 10</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">wp10</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Corel WordPerfect 10</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D10" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP<text:line-break/>Unix-Derivate unbekannt</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">LaTEX</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">latex</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Texteditor</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">alle</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">StarWriter 5.2</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">sw52</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">StarOffice 5.2</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP<text:line-break/>Unix: Solaris, Linux<text:line-break/>OS/2</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">OpenOffice Writer 1.0</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">oo1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">OpenOffice.org 1.0</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP<text:line-break/>Unix: Solaris, Linux, Mac OS X<text:line-break/>(Anm.: OpenSource und daher potentiell unter weiteren OS verfügbar)</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">StarWriter 6.0</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">sw6</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">StarOffice 6.0</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP<text:line-break/>Unix: Solaris, Linux</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">KWord 1.1.1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">kw1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">KWord 1.1.1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Unix: Linux, Tru64<text:line-break/>(Anm.: OpenSource und daher potentiell unter weiteren OS verfügbar)</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">AbiWord 1.0</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">aw1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">AbiWord 1.0.1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95, 98, ME, NT 4.0, 2000, XP<text:line-break/>zahlreiche Unix-Derivate, QNX, BeOS<text:line-break/>(Anm.: OpenSource und daher potentiell unter weiteren OS verfügbar)</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">FrameMaker 7</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">af7</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Adobe FrameMaker 7</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.D9" table:value-type="string">
+     <text:p text:style-name="Table Contents">Microsoft® Windows<text:span text:style-name="T7">®</text:span> 98, ME, NT 4.0, 2000, XP<text:line-break/>Mac OS 9, X<text:line-break/>Unix: Solaris 2.6, 2.7, 2.8, HP-UX 10.20, 11.0, 11i, AIX<text:span text:style-name="T7">®</text:span> 4.3.3, AIX 5L Version5.1</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.A2" table:value-type="string">
+     <text:p text:style-name="P24"><text:span text:style-name="T8">✔</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle2.F2" table:value-type="string">
+     <text:p text:style-name="Table Contents"><text:span text:style-name="T8">✔</text:span><text:footnote text:id="ftn0"><text:footnote-citation>4</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">FrameMaker 7 ist komplett XML fähig</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+   </table:table-row>
+  </table:table>
+  <text:p text:style-name="Table">Tabelle <text:sequence text:ref-name="refTable0" text:name="Table" text:formula="Table+1" style:num-format="1">1</text:sequence>: Dokumentformate zum Bearbeiten</text:p>
+  <text:p text:style-name="Text body"/>
+  <text:p text:style-name="Text body"/>
+  <text:p text:style-name="Text body"/>
+  <text:p text:style-name="Text body"/>
+  <table:table table:name="Tabelle3" table:style-name="Tabelle3">
+   <table:table-column table:style-name="Tabelle3.A"/>
+   <table:table-column table:style-name="Tabelle3.B"/>
+   <table:table-column table:style-name="Tabelle3.C"/>
+   <table:table-column table:style-name="Tabelle3.D"/>
+   <table:table-column table:style-name="Tabelle3.E"/>
+   <table:table-column table:style-name="Tabelle3.F"/>
+   <table:table-header-rows>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabelle3.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Dokumentformat</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle3.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Kürzel</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle3.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Programm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle3.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">Betriebssystem</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle3.A1" table:value-type="string">
+      <text:p text:style-name="Table Heading">N</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabelle3.F1" table:value-type="string">
+      <text:p text:style-name="Table Heading">X</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table-header-rows>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Portable Document Format<text:footnote text:id="ftn5"><text:footnote-citation>5</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">Adobe versucht mit den Erweiterungen des PDF-Formats den klassichen Papierweg möglichst originalgetreu digital nachzubilden. In den neuen Revisionen von PDF ist es möglich, Anmerkungen anzufügen, Streichungen im Text vorzunehmen, einen einfachen Workflow mit Signierungen abzubilden und Formulare auszufüllen. Adobe verlässt damit nach und nach den Weg des einfachen Weitergabeformates.</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">pdf</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Acrobat Destiller 5.0 u. a.</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.D2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Mac OS 8.6(*), 9.0.4, 9.1 oder OS X (*)<text:line-break/>Microsoft® Windows<text:span text:style-name="T7">®</text:span> 95 OSR 2.0, 98, ME, NT 4.0 ab SP5, 2000, XP<text:line-break/>mit anderen Tools auf fast jedem Betriebssystem</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Postscript</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">ps</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">Druckertreiber bzw. Ghostscript u. .a</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.D2" table:value-type="string">
+     <text:p text:style-name="Table Contents">alle</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+   <table:table-row>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">device-independent<text:footnote text:id="ftn4"><text:footnote-citation>6</text:footnote-citation><text:footnote-body>
+        <text:p text:style-name="Footnote">dvi ist ähnlich dem PDF-Format ein geräteunabhängiges, formtreues Format, das besonders von LaTEX als Zwischenform vor der Weiterverabeitung in einer Druckendstufe verwendet wird</text:p></text:footnote-body></text:footnote></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">dvi</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="Table Contents">LaTEX u. a.</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.D2" table:value-type="string">
+     <text:p text:style-name="Table Contents">alle</text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.A2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+    <table:table-cell table:style-name="Tabelle3.F2" table:value-type="string">
+     <text:p text:style-name="P24"/>
+    </table:table-cell>
+   </table:table-row>
+  </table:table>
+  <text:p text:style-name="Table">Tabelle <text:sequence text:ref-name="refTable1" text:name="Table" text:formula="Table+1" style:num-format="1">2</text:sequence>: Dokumentformate zur Weitergabe</text:p>
+  <text:p text:style-name="P25">Legende:<text:line-break/>N=nativ<text:tab-stop/>das angegebene Format ist dasjenige in dem das angegebene Programm im Normalbetrieb speichert<text:line-break/>X=XML<text:tab-stop/><text:tab-stop/>es handelt sich um ein XML-Format</text:p>
+  <text:p text:style-name="P26"><text:tab-stop/>Die Bezeichnung Linux meint x86 kompatible Kernel mit Versionsnummern ab 2.2.x. Andere Architekturen werden meist auch unterstützt. Die XML-Formate selbst sind plattformunabhängig. Die Bezeichnung Solaris meint das von Sun für SPARC-Prozessoren angebotene Betriebssystem. Die Tabelle erhebt keinen Anspruch auf Vollständigkeit, sowohl was Programme und Dokumentformate, als auch die Angaben über Betriebssysteme betrifft.</text:p>
+  <text:p text:style-name="P26"/>
+  <text:p text:style-name="P27">Bei der oben angeführten Vielzahl an Formaten allein des Marktführers Microsoft ist es not­wendig, sich auf einige wichtige exemplarisch zu beschränken. Dabei beeinflussen im Sinne der Zielsetzung folgende Kriterien die Auswahl:</text:p>
+  <text:ordered-list text:style-name="L1">
+   <text:list-item>
+    <text:p text:style-name="P28">Verbreitung<text:line-break/>Da ein zentrales Interesse die kollaborative Arbeit an Dokumenten ist, liegt ein Schwerpunkt bei der Auswahl auf weit verbreiteten Formaten. Dies bedeutet auch, dass das Programm, welches dieses Format nativ verwendet, weit verbreitet ist.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P28">Offenheit<text:line-break/>Ziel der Studie sind wegweisende Schritte in Richtung Entwicklung offener Standards für den Dokumentenaustausch. Dokumentformate, die bereits offener Standard sind, werden daher genau betrachtet. Die Mindestanforderungen an einen offenen Standard sind, dass das Dokumentformat und seine Beschreibung frei verbreitet werden dürfen und <text:s/>abgeleitete Formate explizit gestattet sind.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P28">Dokumentation<text:line-break/>Formate mit umfangreicher Dokumentation ihrer inneren Struktur geben die Möglichkeit, sie in ihrer Komplexität zu analysieren, so dass bei der Entwicklung eines Migrationspfades zu einem standardisierten Dokumentenformat mit weniger Hindernissen zu rechnen ist.</text:p>
+    <text:p text:style-name="P28">Dieses Kriterium ist für offene Standards bereits erfüllt!</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P28">XML-Format<text:line-break/>Ein Schwerpunkt der Studie wird auf der Betrachtung von XML als Basis für die Definition eines offenen Dokumentstandards liegen. Daher werden bestehende XML-Formate als Anschauungsmaterial herangezogen, zumal zu erwarten ist, dass eine Transformation von und in diese Formate von anderen XML-Formaten möglich sein wird.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:p text:style-name="Text body">Als Auswahl unter den hier genannten Kriterien werden folgende Formate gewählt:</text:p>
+  <text:ordered-list text:style-name="L2">
+   <text:list-item>
+    <text:p text:style-name="P29">Microsoft Word Formate<text:line-break/>Diese Formate in allen ihren Varianten sind ubiquitär verbreitet. Sie müssen betrachtet werden, da sie den derzeitigen de facto Standard bei der Dokumenterstellung darstellen.</text:p>
+    <text:p text:style-name="P29">Die Auswahl der Unterformate respektive Programmversionen fällt nicht leicht, sind doch bis auf die DOS-Versionen quasi alle Windows-Versionen weit verbreitet. In Anbetracht der Tatsache, dass Microsoft seine Lizenzbedingungen geändert hat und dies großen Einfluss auf die aktuelle Diskussion um proprietäre Software des Marktführers und die Beschaffungslage der Verwaltungen hat, werden die letzte Version vor und die erste nach der Umstellung betrachtet. Dies sind die Formate doc2000 und docXP.</text:p>
+    <text:p text:style-name="P29">Zudem wird das noch sehr weit verbreitet Format doc97 und am Rande auch das alte, von Word 5.5. für DOS verwendete Format doc5.5dos zu Betrachtungen über die Dauerhaftigkeit von Formaten herangezogen werden.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:ordered-list text:style-name="L3">
+   <text:list-item>
+    <text:p text:style-name="P30">Rich Text Format<text:line-break/>Microsoft hat in Erkenntnis der Problematik des Dokumentenaustausches selbst innerhalb der eigenen Produktreihe <text:span text:style-name="T6">versucht</text:span>, ein Format zu etablieren, mit dem der Formatierungsreichtum von Textverarbeitungsformaten bei der Konvertierung erhalten bleiben kann. Wegen zusätzlicher Funktionalitäten jeweils neuer Versionen von Word, wurde das Format in der Vergangenheit im jeweilig notwendigen Umfang erweitert.</text:p>
+    <text:p text:style-name="P31">Da dieses Format gerne zum Textaustausch auch zwischen verschiedenen Plattformen verwendet wird und bis zur Version 1.7 (verwendet bis Word 2002/XP) sowohl von Microsoft formal standardisiert als auch dokumentiert ist, wird es hier betrachtet.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:ordered-list text:style-name="L4">
+   <text:list-item>
+    <text:p text:style-name="P32">XML-Formate<text:line-break/>Inzwischen verwenden einige Textverarbeitungen oder ganze Office-Suiten XML als Speicherformat. Verbreitet sind im Umfeld freier Software KWord aus der K-Office-Suite der KDE-Benutzoberfläche, sowie AbiWord, das Pendant aus dem gtk-Umfeld. In jüngerer Zeit hinzugekommen sind der OpenOfficeWriter aus der OpenOffice.org-Suite in der kürz­lich erschienenen Version 1.0 und das kommerzielle Pendant StarWriter 6.0 aus der StarOffice-Suite 6.0. Um das Feld einzugrenzen, werden lediglich KWord, OpenOffice.org und StarOffice näher betrachtet. Obwohl die letzten zwei ein identisches Dokumentformat verwenden, ist die gesonderte Betrachtung von StarOffice wegen der mitgelieferten Filter sinnvoll. KWord wird als Repräsentant framebasierter Textdokumentverarbeitung ausgewählt.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:ordered-list text:style-name="L5">
+   <text:list-item>
+    <text:p text:style-name="P33">PDF<text:line-break/>PDF als reines Weitergabeformat verspricht Formtreue in Anzeige und Ausdruck. Es ist weit verbreitet und dokumentiert.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P33">LaTEX<text:line-break/>LaTEX wird als Beispiel einer seit langer Zeit im wissenschaftlichen Umfeld etablierten Textauszeichnungssprache zum Textsatz betrachtet werden.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:p text:style-name="Text body"><text:span text:style-name="T6">Weitere Formate werden nicht herangezogen. Sie erweitern das Thema lediglich umfäng­lich, nicht jedoch inhaltlich.</text:span></text:p>
+  <text:h text:style-name="Heading 2" text:level="3">Bestandsaufnahme Textaustausch</text:h>
+  <text:p text:style-name="Text body">Im zweiten Kapitel sollen die verschiedenen zur Verfügung stehenden offenen und proprietären Textdokumentformate betrachtet werden. Während die ersten drei Unterkapitel einer Bestandsaufnahme dienen, soll in den weiteren Unterkapiteln ein erster Versuch gemacht werden, auf hoher Ebene ein Metaformat zu definieren, das eine Obermenge vorher festgelegter wichtiger bestehender Dokumentformate enthält. Die dafür verwendeten Beispielformate werden sich an den gängigen und am Markt verbreiteten Formaten orientieren.</text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Definition und Abgrenzung</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Proprietäre Textaustauschformate</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Austauschformate zum Bearbeiten</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Austauschformate zur Weitergabe</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Sicherheitsaspekte proprietärer Austauschformate</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Auszeichnungsqualität</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Dauerhaftigkeitsbetrachtungen</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Offene Textaustauschformate</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Austauschformate zum Bearbeiten</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Austauschformate zur Weitergabe</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Austauschformate auf Basis von XML</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Sicherheitsaspekte offener Austauschformate</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Auszeichnungsqualität</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Dauerhaftigkeitsbetrachtungen</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Möglichkeiten des Dokumentenmamangements</text:h>
+  <text:unordered-list text:style-name="L6">
+   <text:list-item>
+    <text:p text:style-name="P34">Indizierung</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P35">Archivierung</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P35">Analyse/Datamining</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P36">Anbindung an Datenbanken</text:p>
+   </text:list-item>
+  </text:unordered-list>
+  <text:h text:style-name="Heading 3" text:level="4">Rechtliche Fragestellungen</text:h>
+  <text:unordered-list text:style-name="L7">
+   <text:list-item>
+    <text:p text:style-name="P37">Urheberrecht</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P37">Lizenzierung</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P38">Software-Patente</text:p>
+   </text:list-item>
+  </text:unordered-list>
+  <text:h text:style-name="Heading 3" text:level="4">Versuch einer ersten Definition einer Metamenge von Formaten</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Differenzierung nach Inhalt, Form, Einbettung und dynamischen Inhalten<text:line-break/>(Makros und Skripte)</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Differenzierung nach Layout<text:line-break/>(z. B. Seiten- und framebasierte Formate)</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Festlegung auf Beispielformate</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Abbildung des Metaformats</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Diskussion unter besonderer Berücksichtigung von Auszeichnungsqualität <text:line-break/>und Sicherheitsaspekten</text:h>
+  <text:h text:style-name="Heading 2" text:level="3">Aktuelle Entwicklungen in Dokumentaustauschformaten</text:h>
+  <text:p text:style-name="Text body">Das dritte Kapitel zeichnet aktuelle Entwicklungspfade in den Textdokumentformaten auf. Dabei muss besonders auf das Scheitern von SGML eingegangen werden, um Sensibilität für die Schwierigkeiten bei der Definition eines universellen Dokumentformates zu erhalten.</text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Übersicht</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">LATEX als Beispiel einer Textauszeichnungssprache</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">XML versus SGML - Betrachtungen eines Scheiterns</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Offene Projekte und ihre XML-Basis</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Austauschformate auf Basis von XML</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">verfügbare freie Komponenten zum Umgang mit XML</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">verfügbare proprietäre Komponenten zum Umgang mit XML</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Kompatibilitätsbetrachtungen</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Ausblick</text:h>
+  <text:h text:style-name="Heading 2" text:level="3">Anforderungen an einen freien, offenen Textdokumentenstandard</text:h>
+  <text:p text:style-name="Text body">Das folgende Kapitel versucht die Anforderungen an einen universellen Textdokumentenstandard zunächst unabhängig von den spezifischen Erfordernissen der Formatproblematik zusammenzustellen. Sodann wird ein Versuch unternommen anhand eines Teils der im zweiten Kapitel vorgenommenen Obermenge von Formaten beispielhaft eine DTD zu definieren, um die bisherigen Ergebnisse zusammenzuführen.</text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Kompatibilität und Vollständigkeit</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Sicherheit</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Weiterverarbeitbarkeit (Toolketten)</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Erweiterbarkeit und Abwärtskompatibilität</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Integrierbarkeit in bestehende Anwendungen und Abläufe</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Versuch einer beispielhaften Definition einer DTD basierend auf den bisherigen Ergebnissen</text:h>
+  <text:h text:style-name="Heading 2" text:level="3">Vorgehenskonzept zur Einführung eines freien, offenen Textdokumentenstandards</text:h>
+  <text:p text:style-name="Text body">Das letzte Kapitel wird die verschiedenen Alternativen diskutieren mit der die Einführung eines offenen, standardisierten und universellen Textaustauschformates auch im europäischen und weltweiten Kontext möglich werden kann.</text:p>
+  <text:h text:style-name="Heading 3" text:level="4">Methoden zur Definition und Etablierung eines Standards für Textdokumentformate</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Vollständige Migration auf ein Textverarbeitungssystem mit offenem Standard</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Kompatibilitätsbetrachtungen</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Psychosoziale Faktoren</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Folgenabschätzung</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Diskussion</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Einbindung von anderen Office Anwendungen</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Adaption von offenen Standards durch den Hersteller</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Chancen für ein Plugin für MS Office</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Chancen für ein Plugin für andere Office Produkte</text:h>
+  <text:h text:style-name="Heading 4" text:level="5">Diskussion</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Eigenständige Software zur Konvertierung von Dokumentformaten</text:h>
+  <text:h text:style-name="Heading 3" text:level="4">Maßnahmenkatalog zur Förderung der Einführung eines freien und offenen Standards für Textdokumentformate</text:h>
+ </office:body>
+</office:document-content>
