@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office:document-content PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "office.dtd">
+<office:document-content xmlns:office="http://openoffice.org/2000/office" xmlns:style="http://openoffice.org/2000/style" xmlns:text="http://openoffice.org/2000/text" xmlns:table="http://openoffice.org/2000/table" xmlns:draw="http://openoffice.org/2000/drawing" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:number="http://openoffice.org/2000/datastyle" xmlns:svg="http://www.w3.org/2000/svg" xmlns:chart="http://openoffice.org/2000/chart" xmlns:dr3d="http://openoffice.org/2000/dr3d" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="http://openoffice.org/2000/form" xmlns:script="http://openoffice.org/2000/script" office:class="text" office:version="1.0">
+ <office:script/>
+ <office:font-decls>
+  <style:font-decl style:name="StarBats" fo:font-family="StarBats" style:font-charset="x-symbol"/>
+  <style:font-decl style:name="StarSymbol" fo:font-family="StarSymbol" style:font-charset="x-symbol"/>
+  <style:font-decl style:name="Arial Unicode MS" fo:font-family="&apos;Arial Unicode MS&apos;" style:font-pitch="variable"/>
+  <style:font-decl style:name="Futura" fo:font-family="Futura" style:font-pitch="variable"/>
+  <style:font-decl style:name="HG Mincho Light J" fo:font-family="&apos;HG Mincho Light J&apos;" style:font-pitch="variable"/>
+ </office:font-decls>
+ <office:automatic-styles>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Contents 1">
+   <style:properties>
+    <style:tab-stops>
+     <style:tab-stop style:position="16.999cm" style:type="right" style:leader-char="."/>
+    </style:tab-stops>
+   </style:properties>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L1"/>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2"/>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3"/>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4"/>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5"/>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6"/>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L7"/>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L8"/>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L9"/>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="L10">
+   <style:properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L11"/>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L12"/>
+  <style:style style:name="T1" style:family="text">
+   <style:properties fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:properties style:text-position="super 58%"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:properties fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:properties fo:font-style="normal"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:properties fo:font-style="normal" style:text-background-color="#ffff00"/>
+  </style:style>
+  <style:style style:name="Sect1" style:family="section">
+   <style:properties>
+    <style:columns fo:column-count="0" fo:column-gap="0cm"/>
+   </style:properties>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix=")" text:bullet-char="●">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L5">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="●">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L6">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L7">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L8">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L9">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L10">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L11">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix=")" text:bullet-char="●">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L12">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering Symbols" style:num-suffix="." style:num-format="1">
+    <style:properties text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="●">
+    <style:properties text:space-before="0.501cm" text:min-label-width="0.499cm" style:font-name="StarSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="1.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="2.501cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="3.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.001cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+    <style:properties text:space-before="4.502cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-number>
+  </text:list-style>
+ </office:automatic-styles>
+ <office:body>
+  <text:sequence-decls>
+   <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+   <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+  </text:sequence-decls>
+  <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Inhaltsverzeichnis1">
+   <text:table-of-content-source text:outline-level="10">
+    <text:index-title-template text:style-name="Contents Heading">Inhalt</text:index-title-template>
+    <text:table-of-content-entry-template text:outline-level="1" text:style-name="Contents 1">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-link-start/>
+     <text:index-entry-page-number/>
+     <text:index-entry-link-end/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="2" text:style-name="Contents 2">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="3" text:style-name="Contents 3">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="4" text:style-name="Contents 4">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="5" text:style-name="Contents 5">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="6" text:style-name="Contents 6">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="7" text:style-name="Contents 7">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="8" text:style-name="Contents 8">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="9" text:style-name="Contents 9">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+    <text:table-of-content-entry-template text:outline-level="10" text:style-name="Contents 10">
+     <text:index-entry-chapter-number/>
+     <text:index-entry-text/>
+     <text:index-entry-tab-stop style:type="right" style:leader-char="."/>
+     <text:index-entry-page-number/>
+    </text:table-of-content-entry-template>
+   </text:table-of-content-source>
+   <text:index-body>
+    <text:index-title text:style-name="Sect1" text:name="Inhaltsverzeichnis1_Head">
+     <text:p text:style-name="Contents Heading">Inhalt</text:p>
+    </text:index-title>
+    <text:p text:style-name="P1">OpenOffice<text:tab-stop/><text:a xlink:type="simple" xlink:href="#1.OpenOffice%7Coutline">1</text:a></text:p>
+    <text:p text:style-name="P1">Microsoft Office 2000<text:tab-stop/><text:a xlink:type="simple" xlink:href="#2.MicrosoftOffice2000%7Coutline">3</text:a></text:p>
+    <text:p text:style-name="P1">Microsoft Office XP<text:tab-stop/><text:a xlink:type="simple" xlink:href="#3.MicrosoftOfficeXP%7Coutline">4</text:a></text:p>
+    <text:p text:style-name="P1">Microsoft Office<text:tab-stop/><text:a xlink:type="simple" xlink:href="#4.MicrosoftOffice%7Coutline">5</text:a></text:p>
+    <text:p text:style-name="P1">Textformate<text:tab-stop/><text:a xlink:type="simple" xlink:href="#5.Textformate%7Coutline">5</text:a></text:p>
+    <text:p text:style-name="P1">XML<text:tab-stop/><text:a xlink:type="simple" xlink:href="#6.XML%7Coutline">6</text:a></text:p>
+    <text:p text:style-name="P1">XML-Projekte und Tools<text:tab-stop/><text:a xlink:type="simple" xlink:href="#7.XML-ProjekteundTools%7Coutline">7</text:a></text:p>
+    <text:p text:style-name="P1">Fragmente<text:tab-stop/><text:a xlink:type="simple" xlink:href="#8.Fragmente%7Coutline">8</text:a></text:p>
+   </text:index-body>
+  </text:table-of-content>
+  <text:p text:style-name="Text body"/>
+  <text:h text:style-name="Heading 1" text:level="1">Standardisierung von Textformaten</text:h>
+  <text:ordered-list text:style-name="L1">
+   <text:list-item>
+    <text:p text:style-name="P2">Mailingliste bei OpenOffice<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/standardisation">http://xml.openoffice.org/standardisation</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P2">Koffice-Developers<text:line-break/><text:a xlink:type="simple" xlink:href="mailto:koffice-devel@mail.kde.org">koffice-devel@mail.kde.org</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P2">WVWare-Developers (wordview-lib)<text:line-break/><text:a xlink:type="simple" xlink:href="mailto:wvware-devel@lists.sourceforge.net">wvware-devel@lists.sourceforge.net</text:a></text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">OpenOffice</text:h>
+  <text:ordered-list text:style-name="L2">
+   <text:list-item>
+    <text:p text:style-name="P3"><text:span text:style-name="T1">XML Project<text:line-break/></text:span><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/">http://xml.openoffice.org</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3"><text:span text:style-name="T1">XML Packages</text:span><text:line-break/>This page is intended to summarize the discussion about the problem of embedding binary content in XML documents and provide a solid foundation that will guide the implementation efforts.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/package.html">http://xml.openoffice.org/package.html</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">default <text:span text:style-name="T1">file extensions</text:span> for XML-based documents<text:line-break/>Writer<text:tab-stop/><text:tab-stop/><text:tab-stop/>sxw<text:line-break/>Calc<text:tab-stop/><text:tab-stop/><text:tab-stop/>sxc<text:line-break/>Draw<text:tab-stop/><text:tab-stop/><text:tab-stop/>sxd<text:line-break/>Impress<text:tab-stop/><text:tab-stop/><text:tab-stop/>sxi<text:line-break/>Math<text:tab-stop/><text:tab-stop/><text:tab-stop/>sxm<text:line-break/>Writer global document<text:tab-stop/>sxg<text:line-break/>XML is also used in other OpenOffice.org files (e.g. configuration) which are not covered in the xmloff project.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3"><text:span text:style-name="T1">package format</text:span><text:line-break/>We use the well-known ZIP file format as a package format. In addition, we store an XML-based manifest file that describes the package content and may supply additional information about the included files (e.g. encryption method). Since we use ZIP, most archive programs can already handle our files.<text:line-break/>Inside the package, you generally find several streams that make up the full office document. These are:<text:line-break/>meta.xml<text:tab-stop/>information about the document (author, time of last save, ...)<text:line-break/>styles.xml<text:tab-stop/>styles that are used in the document<text:line-break/>content.xml<text:tab-stop/>main document content (text, tables, graphical elements)<text:line-break/>settings.xml<text:tab-stop/>document and view settings (such as magnification level and selected printer); these are usually application specific<text:line-break/>META-INF/manifest.xml<text:tab-stop/>provides additional information about the other files (such as MIME type or encrpytion method)<text:line-break/>Pictures/<text:tab-stop/>directory containing images (in their native, binary formats)<text:line-break/>Dialogs/<text:tab-stop/>directory containing dialogs used by document macros<text:line-break/>Basic/<text:tab-stop/>directory containing StarBasic macros<text:line-break/>Obj.../<text:tab-stop/>directories containing embedded objects, such as charts; each directory contains one such object, stored in its native format. For OpenOffice.org objects that is its XML representation, for other objects it&apos;s usually a binary format.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">How to put additional information into an XML file<text:line-break/>Alien attributes, i.e. attributes not defined in the OpenOffice.org DTD, will be preserved if they are attached to &lt;style:properties&gt; elements in style definitions. All other alien content will be discarded by the OpenOffice.org import filters.<text:line-break/>Since you can attach styles to arbitrary text ranges, you can use this mechanism to attach your information to arbitrary text ranges, too.<text:line-break/>Note: The above mechanism seems to only work in Writer. The issue is under investigation. It is planned that you can also put additional files with your own content into the packages. However, this doesn&apos;t work yet.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">plain XML without compression or binary data, just plain XML<text:line-break/>For purposes of import and export, we provide UNO-based services that allow you to import or export XML data through the SAX interface.<text:line-break/>Also, it is planned to allow plain XML files (without packages) to be read and written. However, this is not implemented yet.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">Which styles are written out?<text:line-break/>In general, styles that are used in the document or that have been modified by the user are written to disk. The former is necesary to render the document correctly. The latter is preserved because if a user edited those styles, he/she is likely to use them later on. Therefore, those styles should not be discarded, even though they do not contribute to the document in its current form and shape.<text:line-break/>If styles that meet neither of these criteria are written, then this is may be considered a bug. The Draw, Impress, and Calc applications currently show this behavior.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">How are embedded images and binary data handled?<text:line-break/>Images and embedded objects are stored in their native formats into the ZIP-based package format.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">Differences between StarOffice and OpenOffice.org<text:line-break/>The source code available at OpenOffice.org does not consist of all of the StarOffice code. Usually, the reason for this is that Sun pays to license third party code to include in StarOffice that which it does not have permission to make available in OpenOffice.org. Those things which are or will be present in StarOffice but are not available on OpenOffice.org include:</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:unordered-list text:style-name="L3">
+   <text:list-item>
+    <text:unordered-list>
+     <text:list-item>
+      <text:p text:style-name="P4">Certain fonts (including, especially, Asian language fonts)</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P4">The database component (Adabas D) </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P4">Some templates </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P4">Extensive Clip Art Gallery </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P4">Some sorting functionality (Asian versions) </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P4">Certain file filters</text:p>
+     </text:list-item>
+    </text:unordered-list>
+   </text:list-item>
+  </text:unordered-list>
+  <text:ordered-list text:style-name="L2" text:continue-numbering="true">
+   <text:list-header>
+    <text:p text:style-name="P3"><text:a xlink:type="simple" xlink:href="http://www.openoffice.org/FAQs/mostfaqs.html">http://www.openoffice.org/FAQs/mostfaqs.html</text:a></text:p>
+   </text:list-header>
+   <text:list-item>
+    <text:p text:style-name="P3">Developer Mailingliste zu XML in OpenOffice.org<text:line-break/>This discussion list is designated for discussion about the XML based file format and its implementation in OpenOffice.org.<text:line-break/>Subscribe:<text:tab-stop/>send email to: <text:a xlink:type="simple" xlink:href="mailto:dev-subscribe@xml.openoffice.org">dev-subscribe@xml.openoffice.org</text:a><text:line-break/>Unsubscribe:<text:tab-stop/>send email to: dev-unsubscribe@xml.openoffice.org<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/servlets/BrowseList?listName=dev">http://xml.openoffice.org/servlets/BrowseList?listName=dev</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">StarOffice XML File Format<text:line-break/>This documents defines the XML file format used by StarOffice and OpenOffice.org applications. It serves as reference <text:s/>for the format.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/xml_specification_draft.pdf">http://xml.openoffice.org/xml_specification_draft.pdf</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">StarOffice XML File Format DTD<text:line-break/>The document type definition provides a handy reference against which all OpenOffice.org XML files can be validated against.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.openoffice.org/source/browse/xml/xmloff/dtd">http://www.openoffice.org/source/browse/xml/xmloff/dtd/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">Filters using XML<text:line-break/>This guide explains how to implement filters, i.e. components to read or write other applications&apos; file formats, using the XML file format. Additional resources are referenced in the document.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/filter">http://xml.openoffice.org/filter/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">XML Advantages<text:line-break/>This page explains our motivation for <text:s/>using an XML based file format. It lists advantages of our new file format, <text:s/>and discusses how these will benefit different groups of users.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/xml_advocacy.html">http://xml.openoffice.org/xml_advocacy.html</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">xfilter tool<text:line-break/>This page documents the xfilter tool, which lets you execute XML-based filters (as explained in the &quot;Filters using XML&quot; document above) outside of OpenOffice.org or StarOffice.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/xfilter.html">http://xml.openoffice.org/xfilter.html</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">filters using the XML based file format<text:line-break/>This document explains the implementation of OpenOffice.org import and export filter components, focusing on filter components based on the OpenOffice.org XML file format. It is intended as a brief introduction to developers that want to implement OpenOffice.org filters for foreign file formats.<text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.openoffice.org/filter">http://xml.openoffice.org/filter/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">Modules in the XML project</text:p>
+    <text:ordered-list>
+     <text:list-item>
+      <text:p text:style-name="P3">The module sax contains XML parser and XML writer components, both based on the SAX 1 interface.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P3">The module xmloff contains the document type definitions (DTDs) for the XML based file format. It also contains most of the C++ code to read and write these files through the SAX interface. Some additional code exists within the application modules.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P3">The package module contains the Zip file access API implementation, the &quot;generic&quot; package API implementation and support for the XML Manifest file.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P3">The filtertools module contains a tool for running XML-based filters outside of OpenOffice.org. (URL s. Punkt 15)</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P3">The xmerge module <text:s/>contains the sources for the &quot;Document Editing on Small Devices&quot; project.</text:p>
+     </text:list-item>
+    </text:ordered-list>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">DTD Quellen<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.openoffice.org/source/browse/xml/xmloff/dtd">http://www.openoffice.org/source/browse/xml/xmloff/dtd/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P3">Zeichensatz<text:a xlink:type="simple" xlink:href="http://www.openoffice.org/source/browse/xml/xmloff/dtd"><text:line-break/></text:a>KOffice 1.1.1 kodiert UTF-8 und verwendet die UTF-8 Methode um char-16 <text:s/>darzustellen. (Wird von Qt transparent erledigt)</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">Microsoft Office 2000</text:h>
+  <text:ordered-list text:style-name="L4">
+   <text:list-item>
+    <text:p text:style-name="P5">In <text:span text:style-name="T1">Microsoft Office 2000</text:span>, there is very limited XML support. In fact, the only place that XML is used in Office 2000 is through the use of XML data islands in Microsoft Excel 2000, Microsoft PowerPoint<text:span text:style-name="T2">®</text:span> 2000, and Microsoft Word 2000 when these documents are saved as Web pages. This allows these documents to be viewed and edited in Microsoft Internet Explorer while maintaining the rich formatting that was used when these documents were created in their original applications.</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:ordered-list text:style-name="L5">
+   <text:list-item>
+    <text:p text:style-name="P6"><text:span text:style-name="T1">HTML als systemeigenes Dateiformat</text:span><text:line-break/>Office-Anwendungen können HTML-Dateien originalgetreu speichern und lesen. HTML wird somit auf die gleiche Stufe gestellt wie proprietäre Dateiformate (*.DOC, *.XLS, *.PPT).<text:line-break/>Exportieren aus Access 2002 nach XML (überarbeitet)<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.microsoft.com/germany/produkte/features.asp?siteid=789">http://www.microsoft.com/germany/produkte/features.asp?siteid=789</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P6"><text:span text:style-name="T1">Export a Word Document to XML</text:span><text:line-break/><text:a xlink:type="simple" xlink:href="http://msdn.microsoft.com/library/en-us/dnword2k/html/odc_expwordtoxml.asp?frame=true">http://msdn.microsoft.com/library/en-us/dnword2k/html/odc_expwordtoxml.asp?frame=true</text:a></text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">Microsoft Office XP</text:h>
+  <text:ordered-list text:style-name="L6">
+   <text:list-item>
+    <text:p text:style-name="P7">In <text:span text:style-name="T1">Microsoft Office XP</text:span>, XML is implemented in several additional ways:</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:unordered-list text:style-name="L5">
+   <text:list-item>
+    <text:unordered-list>
+     <text:list-item>
+      <text:p text:style-name="P6">You can save Microsoft Excel 2002 spreadsheets and Microsoft Access 2002 database tables, queries, and views as XML.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P6">You can import XML into Excel 2002 spreadsheets and Access 2002 databases.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P6">Microsoft Outlook® 2002 views are defined in XML. You can modify these view formats by using Visual Basic® for Applications (VBA) code.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P6">Smart tags can be embedded as XML inside of Microsoft Word 2002 documents, Excel 2002 spreadsheets, Outlook 2002 e-mail (when Word 2002 is enabled as your e-mail editor), or Web pages (when Office XP or one of the individual applications just mentioned) is installed on your computer. Reusable smart tags can also be written in XML and distributed to multiple Office XP users.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P6">Not Saved in Excel XP(2002): charts, OLE objects, images, drawing objects, group/outline or VBA projects</text:p>
+     </text:list-item>
+    </text:unordered-list>
+    <text:p text:style-name="P6">XML and Microsoft Office (mit Beispielen und Überblick):<text:line-break/><text:a xlink:type="simple" xlink:href="http://msdn.microsoft.com/library/en-us/dnofftalk/html/office08022001.asp">http://msdn.microsoft.com/library/en-us/dnofftalk/html/office08022001.asp</text:a><text:line-break/><text:a xlink:type="simple" xlink:href="../../../../../../lunetix/Projekte/BSI/Dokumentenformate/ScatchPad/07.ppt">file:///home/lunetix/Projekte/BSI/Dokumentenformate/ScatchPad/07.ppt</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P6"><text:span text:style-name="T1">XML-Unterstützung in Excel und AccessXP</text:span><text:line-break/>Excel unterstützt nun XML (Extensible Markup Language). Benutzer können sowohl generisches, wohlgeformtes XML als auch Kalkulationstabellen-XML direkt in Excel laden und speichern. Außerdem können Benutzer XML-Kalkulationstabellen aus dem Internet abfragen und auf diese Weise wichtige Webdaten analysieren.Access-Benutzer können XML-Schema- und Datendokumente auf einfache Weise nach Access importieren oder aus Access exportieren. Benutzer können automatisch XML-Tabellen importieren oder auf erweiterte Optionen zugreifen, um die importierten Daten anzupassen.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.microsoft.com/germany/produkte/features.asp?siteid=10869">http://www.microsoft.com/germany/produkte/features.asp?siteid=10869</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P6"><text:span text:style-name="T1">MS Access XP</text:span><text:line-break/>In Microsoft Access 2002 können Sie Daten durch Exportieren in ein XML-Dokument im Extensible Markup Language-Format (XML) ausgeben. Sie können darüber hinaus Schemadateien ausgeben, welche die Struktur des XML-Dokuments angeben, sowie Stylesheets (XSL), welche die Präsentation der Daten beschreiben. <text:line-break/><text:a xlink:type="simple" xlink:href="http://office.microsoft.com/germany/Assistance/2002/articles/acExportToXmlFromAccess.aspx">http://office.microsoft.com/germany/Assistance/2002/articles/acExportToXmlFromAccess.aspx<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://office.microsoft.com/germany/Assistance/2002/articles/acAboutXmlDataAndAccess.aspx">http://office.microsoft.com/germany/Assistance/2002/articles/acAboutXmlDataAndAccess.aspx</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P6"><text:span text:style-name="T1">Office für Mac</text:span> ? der Vorreiter<text:line-break/>Nimmt man Office XP genauer unter die Lupe, sind nicht alle Neuerungen wirklich neu. Verschiedene Konzepte wie den Aufgabenbereich oder auch verbesserten HTML- und XML-Support hat Microsoft in der Office 2001 Macintosh Edition bereits auf Apple-Computern ansatzweise erprobt, bevor diese nun in XP Einzug gefunden haben. Office 2001 für den Mac zeigte bereits erste Ansätze von Microsofts neuer Dot.Net-Strategie.<text:line-break/>Dot.Net rückt zunehmend Internet und vernetztes Arbeiten in den Vordergrund. Auch wenn Office XP laut Microsoft ausdrücklich keine Dot.Net-Version darstellt, finden sich schon Ansätze für vernetztes Arbeiten. So etwa die neuen webbasierten Vorlagen- und Grafikarchive, auf die man direkt über einen Office-Aufgabenbereich zugreifen kann. Auch die neuen XML-Funktionen, mit denen man XML-Strukturen direkt in Excel importieren kann, oder das automatische Re-Publishing für Office-Dokumente im HTML Format zeigen, wie stark Office-Paket und Internet in Zukunft miteinander in Beziehung stehen.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.vnunet.de/pc-pro/testzone/detail.asp?ArticleID=616&amp;AT=29&amp;Page=4&amp;RefID=615">http://www.vnunet.de/pc-pro/testzone/detail.asp?ArticleID=616&amp;AT=29&amp;Page=4&amp;RefID=615</text:a></text:p>
+   </text:list-item>
+  </text:unordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">Microsoft Office</text:h>
+  <text:ordered-list text:style-name="L7">
+   <text:list-item>
+    <text:p text:style-name="P8">DOC-Format<text:line-break/>Native DOC ist OLE2, welches wiederum auf COM und DCE/RPC beruht.<text:line-break/><text:a xlink:type="simple" xlink:href="http://snake.cs.tu-berlin.de:8081/~schwartz/pmh/laola.html">http://snake.cs.tu-berlin.de:8081/~schwartz/pmh/laola.html<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/com/structuredstoragestartpage_19d1.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/com/structuredstoragestartpage_19d1.asp</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P8">OLE<text:line-break/>Martin Schwarz, Berlin beschreibt dort den Aufbau des Win32 OLE &quot;Dateisystems&quot;<text:line-break/><text:a xlink:type="simple" xlink:href="http://snake.cs.tu-berlin.de:8081/~schwartz/pmh/guide.html#a">http://snake.cs.tu-berlin.de:8081/~schwartz/pmh/guide.html#a</text:a></text:p>
+    <text:p text:style-name="P8">Die OLE Daten sind 32bit little endian.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.marin.clara.net/COM/variant_type_definitions.htm">http://www.marin.clara.net/COM/variant_type_definitions.htm<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://www.kyler.com/pubs/ddj9894.html">http://www.kyler.com/pubs/ddj9894.html</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P8">RTF<text:line-break/>letzte Version von Microsoft RTF ist vom 31. August 2001<text:line-break/><text:a xlink:type="simple" xlink:href="http://download.microsoft.com/download/Word2002/Install/1.7/W98NT42KMeXP/EN-US/W2KRTFSF.exe">http://download.microsoft.com/download/Word2002/Install/1.7/W98NT42KMeXP/EN-US/W2KRTFSF.exe</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P8">RTF nach XML Konverter<text:line-break/>Upcast (http:<text:a xlink:type="simple" xlink:href="../../../../../../../">//www.infinity-loop.de/</text:a>)<text:line-break/>Majix (http://www.tetrasix.com/) <text:line-break/>Omnimark (http://www.omnimark.com/) </text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P8">WorX SE<text:line-break/>Ein Werkzeug um XML Dokumente in Word zu erzeugen, validieren </text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P8">Konverter und Viewer<text:line-break/><text:a xlink:type="simple" xlink:href="http://office.microsoft.com/assistance/9798/viewerscvt.aspx">http://office.microsoft.com/assistance/9798/viewerscvt.aspx<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://office.microsoft.com/downloads/default.aspx?Product=Word&amp;Version=95">http://office.microsoft.com/downloads/default.aspx?Product=Word&amp;Version=95</text:a>|97|98|2000|2002&amp;Type=Converter|Viewer</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">Textformate</text:h>
+  <text:ordered-list text:style-name="L8">
+   <text:list-item>
+    <text:p text:style-name="P9"><text:span text:style-name="T1">File-Format-Library</text:span><text:line-break/>Hier findet man fast alle...<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.informatik.uni-frankfurt.de/~amueller/ff_.htm">http://www.informatik.uni-frankfurt.de/~amueller/ff_.htm<text:line-break/></text:a>hier speziell zu Textformaten:<text:line-break/>viele Links zu den wichtigen Formaten, leider nichts zu M$ außer RTF und M$ Write<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.informatik.uni-frankfurt.de/~amueller/FF05.HTM">http://www.informatik.uni-frankfurt.de/~amueller/FF05.HTM</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P9"><text:span text:style-name="T1">Wotsit&apos;s Format</text:span><text:line-break/>sehr ausführliche Referenz zu vielen Textformaten<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.wotsit.org/search.asp?s=text">http://www.wotsit.org/search.asp?s=text</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P9"><text:span text:style-name="T1">myfileformats.com</text:span><text:line-break/>sehr gute Doku zu hunderten Dateiformaten (leider sehr lahmer Server)<text:line-break/>http://myfileformats.com/<text:line-break/>hier speziell zu Textformaten und auch hanz viel zu M$-Formaten<text:line-break/><text:a xlink:type="simple" xlink:href="http://myfileformats.com/search.php?cat_id=100&amp;cat_name=Document%20and%20Text%20files">http://myfileformats.com/search.php?cat_id=100&amp;cat_name=Document%20and%20Text%20files</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P9"><text:span text:style-name="T1">MSDN Library</text:span><text:line-break/>wichtige Informationen zu M$-Formaten aus der zentralen Quelle...<text:line-break/>(passport Passwort notwendig, das man dort erhält)<text:line-break/><text:a xlink:type="simple" xlink:href="http://msdn.microsoft.com/library">http://msdn.microsoft.com/library/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P9"><text:span text:style-name="T1">Open Document Interchange Format</text:span><text:line-break/>The Open Document Interchange Format (ODIF) is the data stream interchange format associated with the Open Document Architecture (ODA). <text:s/>ODA is an object-oriented document architecture for the description of both the logical layot stuctures of a docuemnt. ODA also supports the transfer of documents in processable form. The ODA and ODIF standard is described in ITU (Internation Telecommunication Union) docuemnts T.411 through T.421.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.faqs.org/faqs/graphics/fileformats-faq/part3/section-93.html">http://www.faqs.org/faqs/graphics/fileformats-faq/part3/section-93.html<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-t">http://www.itu.int/rec/recommendation.asp?type=products&amp;parent=T-REC-t</text:a><text:a xlink:type="simple" xlink:href="http://www.faqs.org/faqs/graphics/fileformats-faq/part3/section-93.html"><text:line-break/></text:a>Open Document Architecture Consortium (ODAC)<text:line-break/>http:<text:a xlink:type="simple" xlink:href="../../../../../../../">//titan.orem.novell.com/</text:a></text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">XML</text:h>
+  <text:ordered-list text:style-name="L9">
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">Extensible Markup Language (XML) 1.0 (Second Edition)</text:span><text:line-break/>The Extensible Markup Language (XML) is a subset of SGML that is completely described in this document. Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.w3.org/TR/2000/REC-xml-20001006">http://www.w3.org/TR/2000/REC-xml-20001006</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">XML Schema Structures</text:span><text:line-break/>XML Schema: Structures specifies the XML Schema definition language, which offers facilities for describing the structure and constraining the contents of XML 1.0 documents, including those which exploit the XML Namespace facility. The schema language, which is itself represented in XML 1.0 and uses namespaces, substantially reconstructs and considerably extends the capabilities found in XML 1.0 document type definitions (DTDs).<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.w3.org/TR/xmlschema-1">http://www.w3.org/TR/xmlschema-1/</text:a></text:p>
+    <text:p text:style-name="P10">XML Schema: Datatypes is part 2 of the specification of the XML Schema language. It defines facilities for defining datatypes to be used in XML Schemas as well as other XML specifications. The datatype language, which is itself represented in XML 1.0, provides a superset of the capabilities found in XML 1.0 document type definitions (DTDs) for specifying datatypes on elements and attributes.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.w3.org/TR/xmlschema-2">http://www.w3.org/TR/xmlschema-2/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">Document Object Model (DOM)</text:span><text:line-break/>The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page. This is an overview of DOM-related materials here at W3C and around the web.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.w3.org/DOM">http://www.w3.org/DOM/<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://www.w3.org/DOM/Activity">http://www.w3.org/DOM/Activity</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">XML Namespaces</text:span><text:line-break/>The XML Namespaces Recommendation seems to be causing a great deal of confusion. This note attempts an alternative explanation of the mechanism described in the Recommendation which I hope will be less confusing.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.jclark.com/xml/xmlns.htm">http://www.jclark.com/xml/xmlns.htm<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://www.w3.org/TR/REC-xml-names">http://www.w3.org/TR/REC-xml-names/</text:a> (Original)</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">RELAX NG</text:span><text:line-break/>The next generation schema language for XML: clean, simple and powerful. This is the definitive specification of RELAX NG, a simple schema language for XML, based on [RELAX] and [TREX]. A RELAX NG schema specifies a pattern for the structure and content of an XML document. A RELAX NG schema is itself an XML document.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.oasis-open.org/committees/relax-ng">http://www.oasis-open.org/committees/relax-ng/<text:line-break/></text:a><text:a xlink:type="simple" xlink:href="http://www.oasis-open.org/committees/relax-ng/tutorial-20011203.html">http://www.oasis-open.org/committees/relax-ng/tutorial-20011203.html</text:a></text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">XML-Projekte und Tools</text:h>
+  <text:ordered-list text:style-name="L10">
+   <text:list-item>
+    <text:p text:style-name="P11">Apache XML Projekt</text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:unordered-list text:style-name="L11">
+   <text:list-item>
+    <text:unordered-list>
+     <text:list-item>
+      <text:p text:style-name="P12"><text:span text:style-name="T1">Xerces - XML parsers in Java, C++ (with Perl and COM bindings)</text:span><text:line-break/>The Apache Xerces2 parser is the reference implementation of XNI but other parser components, configurations, and parsers can be written using the Xerces Native Interface. For complete design and implementation documents, refer to the <text:s/>XNI Manual. Xerces 2 is a fully conforming XML Schema processor. <text:s/><text:line-break/><text:a xlink:type="simple" xlink:href="http://xml.apache.org/xerces2-j/index.html">http://xml.apache.org/xerces2-j/index.html</text:a></text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">Xalan - XSLT stylesheet processors, in Java and C++</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">Cocoon - XML-based web publishing, in Java</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">AxKit - XML-based web publishing, in mod_perl</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">FOP - XSL formatting objects, in Java</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">Xang - Rapid development of dynamic server pages, in JavaScript</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">SOAP - Simple Object Access Protocol</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">Batik - A Java based toolkit for Scalable Vector Graphics (SVG)</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P12">Crimson - A Java XML parser derived from the Sun Project X Parser.</text:p>
+     </text:list-item>
+    </text:unordered-list>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P12"><text:span text:style-name="T1">Xsbrowser</text:span><text:line-break/>The xsbrowser (XML Schema browser) is able to document / instantiate a given DTD (REC-xml-19980210) or XML schema (REC-xmlschema-1-20010502). The xsbrowser aims at creating a human readable document model from a given DTD or XML schema.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.xsbrowser.org/">http:</text:a><text:a xlink:type="simple" xlink:href="../../../../../../../">//www.xsbrowser.org/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P12"><text:span text:style-name="T1">DTD2XS</text:span><text:line-break/>Translate a Document Type Definition (DTD) into a XML Schema (REC-xmlschema-1-20010502).<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.xsbrowser.org/">http:</text:a><text:a xlink:type="simple" xlink:href="../../../../../../../">//www.xsbrowser.org/</text:a></text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P12"><text:span text:style-name="T1">XSV (XML Schema Validator)</text:span><text:line-break/>XSV is a reference implementation developed by Henry S. Thompson (one of the editors of the W3C XML Schema specification) and Richard Tobin. The current release is beta version XSV 1.203.2.20/1.106.2.11. XSV can be used as an online service or downloaded as Windows installer or Python source files.<text:line-break/><text:a xlink:type="simple" xlink:href="http://www.w3.org/2000/09/webdata/xsv">http://www.w3.org/2000/09/webdata/xsv</text:a></text:p>
+   </text:list-item>
+  </text:unordered-list>
+  <text:ordered-list text:style-name="L9" text:continue-numbering="true">
+   <text:list-item>
+    <text:p text:style-name="P10"><text:span text:style-name="T1">XSDComp (XML Schema compilation)</text:span><text:line-break/>Open source project to create a XSLT powered W3C XML Schema validator. Pre Alpha!<text:line-break/>The XML Schema &quot;compiler&quot; project intends to provide a reference implementations of schema evaluation and simplification in XSLT.<text:line-break/><text:a xlink:type="simple" xlink:href="http://sourceforge.net/projects/xsdcomp">http://sourceforge.net/projects/xsdcomp</text:a></text:p>
+   </text:list-item>
+  </text:ordered-list>
+  <text:h text:style-name="Heading 1" text:level="1">Fragmente</text:h>
+  <text:ordered-list text:style-name="L12">
+   <text:list-item>
+    <text:p text:style-name="P13"><text:span text:style-name="T1">Dokument</text:span><text:line-break/>Ein Dokument fasst sämtliche Daten zusammen, die ein Benutzer als Teil seines Textes, seines Tabellenblattes oder seiner Präsentation versteht und in der Lage ist, mit einer Applikation physisch als Datei abzulegen. Es handelt sich also um die Repräsentation des <text:span text:style-name="T3">Inhaltes</text:span> <text:s/>beruhend auf der Struktur des Dokumentformates.<text:span text:style-name="T4"> </text:span><text:span text:style-name="T5">[An dieser Stelle fließen also Applikations- und Anwendersicht zusammen.]</text:span><text:span text:style-name="T3"> </text:span><text:line-break/>Prinzipiell bedeutet dies, das beispielsweise ein Textdokument neben reinem Text, auch Tabellen, Bilder und eingebettet Objekte beinhalten kann. Bilder oder andere Inhalte, die lediglich als Referenz in dem Dokument aufgeführt werden, sind nicht Teil des Dokumentes, im Gegensatz zu der Referenz, die Bestandteil ist.<text:line-break/>Die Festlegung, ob ein Objekt eingebettet oder referenziert wird, obliegt dem Benutzer und den Möglichkeiten der Applikation und des Dokumentformates. </text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P13"><text:span text:style-name="T1">Datei</text:span><text:line-break/>Physikalische Sicht des Dokumentes im Dateisystem (im Gegensatz zur logischen des Dokumentes)</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P13"><text:span text:style-name="T1">XML</text:span><text:line-break/>Ist nur eine Hülle zum Lösen der Kommunikationsprobleme zwischen Computern. Damit das System mit Leben erfüllt wird, müssen zunächst Datenstrukturen für die verschiedenen Dokumenttypen erarbeitet werden. Die Schwierigkeit bei der Entwicklung solcher Strukturen liegt im Erkennen der allgemeinen Struktur und dem Wissen um die vielen Sonderfälle.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P13"><text:span text:style-name="T1">Datenquellen für Datenstrukturen</text:span><text:line-break/>Muss man eine nützliche Datenstruktur erstellen, so benötigt man einen Überblick der bisher vorhandenen Dokumente. Dabei können vorhandenen Datenbanken, Tabellen oder Texte sehr nützlich sein. Man entnimmt dort die Elemente und findet die Bandbreite möglicher bestehender Datensätze und kann zukünftige Variationen zumindest abschätzen.</text:p>
+   </text:list-item>
+   <text:list-item>
+    <text:p text:style-name="P13"><text:span text:style-name="T1">XML-Dokumente</text:span> sind <text:span text:style-name="T1">wohlgeformt</text:span> (das bedeutet, das Dokument entspricht den Grundregeln von XML), wenn die folgende Kriterien erfüllt sind:</text:p>
+    <text:unordered-list>
+     <text:list-item>
+      <text:p text:style-name="P13">Jedes XML-Dokument muss ein eindeutiges Stammelement (ein Element, das das gesamte Dokument umfasst) aufweisen.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P13">Alle Start- und Endttags stimmen überein. Bei XML-Tags muss Groß- und Kleinschreibung beachtet werden. </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P13">Für jeden Starttag existiert ein entsprechender Endtag. Leere Elemente können durch eine spezielle Kurzschreibweise formuliert werden. Auch in diesem Fall ist bei den XML-Tags Groß- und Kleinschreibung zu beachten. </text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P13">Elemente überlappen nicht. Start- und Endtags müssen also korrekt innerhalb von anderen Elementen geschachtelt sein.</text:p>
+     </text:list-item>
+     <text:list-item>
+      <text:p text:style-name="P13">Bestimmte Reservezeichen sind Teil der XML-Syntax und werden nicht als solche interpretiert, wenn diese in dem Datenabschnitt eines Elements verwendet werden. Sie müssen eine spezielle Zeichenfolge (von XML als &quot;Entität&quot; bezeichnet) wie folgt ersetzen:<text:line-break/>Zeichen<text:tab-stop/>Entität<text:line-break/>&lt;<text:tab-stop/><text:tab-stop/>&amp;lt;<text:line-break/>&amp;<text:tab-stop/><text:tab-stop/>&amp;amp;<text:line-break/>&gt;<text:tab-stop/><text:tab-stop/>&amp;gt;<text:line-break/>&quot;<text:tab-stop/><text:tab-stop/>&amp;quot;<text:line-break/>&apos;<text:tab-stop/><text:tab-stop/>&amp;apos;</text:p>
+     </text:list-item>
+    </text:unordered-list>
+   </text:list-item>
+  </text:ordered-list>
+ </office:body>
+</office:document-content>
